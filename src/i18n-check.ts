@@ -1,7 +1,10 @@
 import fs from 'fs';
 import path from 'path';
-import {ENVT} from "src/env";
 import {LangProjectsSnapshot} from "src/lang-projects";
+
+const rootDir = "../platform"
+const projectRoot = path.resolve(__dirname, '..');
+const skipDirs = ["node_modules", "dist", "build", "out", "lib", "test"];
 
 /**
  * Recursively iterate projects structure and return folders with i18n files
@@ -20,7 +23,7 @@ function findLangProjects(dir: string, out: string[]) {
         const stat = fs.statSync(fullPath);
 
         if (stat.isDirectory()) {
-            if (ENVT.skipDirs.includes(file)) {
+            if (skipDirs.includes(file)) {
                 continue;
             }
 
@@ -30,7 +33,7 @@ function findLangProjects(dir: string, out: string[]) {
                     const enFile = path.join(langDir, "en.json");
                     if (fs.existsSync(enFile)) {
                         // change to relative path
-                        const relativePath = path.relative(ENVT.rootDir, fullPath);
+                        const relativePath = path.relative(rootDir, fullPath);
                         out.push(relativePath);
                     }
                 }
@@ -70,7 +73,7 @@ BEST PRACTICES:
     console.info(`Working...`);
 
     const projects: string[] = [];
-    findLangProjects(ENVT.rootDir, projects);
+    findLangProjects(rootDir, projects);
     console.info("🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢");
     console.info(`Found ${projects.length} i18n projects:\n`);
     projects.forEach((project) => {
@@ -78,7 +81,7 @@ BEST PRACTICES:
     });
     console.info("🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢");
     console.info("Storing lang projects to the [src/lang-projects.json] file...");
-    storeLangProjects(path.join(ENVT.projectRoot, "src/lang-projects.json"), projects);
+    storeLangProjects(path.join(projectRoot, "src/lang-projects.json"), projects);
     console.info("DONE!!!");
 }
 
