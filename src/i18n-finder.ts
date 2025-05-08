@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import {ENVT} from "./env";
-import {LangProjectsSnapshot} from "./lang-projects";
+import {LangProjectsSnapshot} from "./lang-projects-model";
 
 /**
  * Recursively iterate projects structure and return folders with i18n files
@@ -54,6 +54,7 @@ function storeLangProjects(file: string, out: string[]) {
 }
 
 function main() {
+    const start = new Date().getTime();
     console.info(`platform-devtool: i18n-finder
 
 Finds i18n projects in the ../platform repository and store paths to file
@@ -67,7 +68,7 @@ BEST PRACTICES:
 
     `)
     console.info("🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢");
-    console.info(`Working...`);
+    console.info(`Working... Around 3-15 seconds...`);
 
     const projects: string[] = [];
     findLangProjects(ENVT.platformDir, projects);
@@ -79,7 +80,15 @@ BEST PRACTICES:
     console.info("🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢");
     console.info("Storing lang projects to the [src/lang-projects.json] file...");
     storeLangProjects(ENVT.langProjectsFile, projects);
-    console.info("DONE!!!");
+    console.info("[src/lang-projects.json] file is modified");
+
+    console.info(`
+
+🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖
+
+`);
+    const end = new Date().getTime();
+    console.info("DONE. Execution time: " + (end - start) + "ms");
 }
 
 main()

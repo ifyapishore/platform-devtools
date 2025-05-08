@@ -3,6 +3,7 @@ import {ENVT} from "./env";
 import {checkLanguageFiles, checkUnknownLanguageFiles, loadLangProjectsFileModel} from "./lang-projects-model";
 
 function main() {
+    const start = new Date().getTime();
     console.info(`platform-devtool: i18n-check
 
 Loads i18n projects from the ./src/lang-projects.json file and perform sanity check
@@ -21,8 +22,13 @@ Loads i18n projects from the ./src/lang-projects.json file and perform sanity ch
         checkUnknownLanguageFiles(project);
     });
 
+    console.info(`
 
-    console.info("DONE!!!");
+🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖
+
+`);
+    const end = new Date().getTime();
+    console.info("DONE. Execution time: " + (end - start) + "ms");
 }
 
 main()
