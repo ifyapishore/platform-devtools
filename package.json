@@ -1,0 +1,27 @@
+{
+  "name": "platform-dev-tools",
+  "version": "1.0.0",
+  "description": "Devtools for platform",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "i18n-finder": "ts-node-dev -r tsconfig-paths/register --transpile-only src/i18n-finder.ts"
+  },
+  "keywords": [],
+  "author": "ify@kibibox.com",
+  "license": "",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "5.5.4"
+  },
+  "dependencies": {
+    "countries-list": "^3.1.1",
+    "deep-equal": "^2.2.3",
+    "dotenv": "^16.4.5",
+    "googleapis": "^134.0.0",
+    "tsconfig-paths": "^4.2.0"
+  }
+}
