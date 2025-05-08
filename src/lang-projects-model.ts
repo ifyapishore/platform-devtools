@@ -16,10 +16,17 @@ export function loadLangProjectsFileModel(file: string): LangProjectsSnapshot {
     return data;
 }
 
+function checkLangFiles(langDir: string) {
+    const langs = ENVT.supportedLanguages;
+    langs.forEach((lang) => {
+        checkLangFile(langDir, lang);
+    });
+}
+
 function checkLangFile(langDir: string, lang: string) {
     const langFile = `${langDir}/${lang}.json`;
     if(fs.existsSync(langFile)) {
-        console.info(`✅ - ${lang}.json exists`);
+        // console.info(`✅ - ${lang}.json exists`);
     } else {
         console.warn(`❌ - ${lang}.json does not exist`);
     }
@@ -30,7 +37,7 @@ function checkAutoLangFile(langDir: string) {
     if(fs.existsSync(langFile)) {
         console.info(`⚠️ - auto.json exists - Some auto translation`);
     } else {
-        console.warn(`✅ - auto.json does not exist - All translations are manual`);
+        // console.warn(`✅ - auto.json does not exist - All translations are manual`);
     }
 }
 
@@ -39,5 +46,5 @@ export function checkLanguageFiles(info: LangProjectInfo) {
     const langDir = path.join(root, "lang");
 
     checkAutoLangFile(langDir);
-    checkLangFile(langDir, "en");
+    checkLangFiles(langDir);
 }
