@@ -69,13 +69,17 @@ BEST PRACTICES:
 - Push [./src/lang-projects.json] changes to platform-devtool repository to save your team mates time.
 
     `)
+    console.info("🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢");
+    console.info(`Working...`);
 
     const projects: string[] = [];
     findLangProjects(rootDir, projects);
-    console.info(`Found ${projects.length} i18n projects:`);
+    console.info("🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢");
+    console.info(`Found ${projects.length} i18n projects:\n`);
     projects.forEach((project) => {
         console.info(project);
     });
+    console.info("🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢");
     console.info("Storing lang projects to the [src/lang-projects.json] file...");
     storeLangProjects(path.join(projectRoot, "src/lang-projects.json"), projects);
     console.info("DONE!!!");

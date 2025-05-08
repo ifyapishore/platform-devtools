@@ -8,7 +8,8 @@
     "/dist"
   ],
   "scripts": {
-    "i18n-finder": "ts-node-dev -r tsconfig-paths/register --transpile-only src/i18n-finder.ts"
+    "i18n-finder": "ts-node-dev -r tsconfig-paths/register --transpile-only src/i18n-finder.ts",
+    "i18n-check": "ts-node-dev -r tsconfig-paths/register --transpile-only src/i18n-check.ts"
   },
   "keywords": [],
   "author": "ify@kibibox.com",
