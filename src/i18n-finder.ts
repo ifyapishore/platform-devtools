@@ -31,7 +31,9 @@ function findLangProjects(dir: string, out: string[]) {
                 if (fs.existsSync(langDir) && fs.statSync(langDir).isDirectory()) {
                     const enFile = path.join(langDir, "en.json");
                     if (fs.existsSync(enFile)) {
-                        out.push(fullPath);
+                        // change to relative path
+                        const relativePath = path.relative(rootDir, fullPath);
+                        out.push(relativePath);
                     }
                 }
             }
@@ -40,14 +42,40 @@ function findLangProjects(dir: string, out: string[]) {
     }
 }
 
+export interface LangProjectInfo {
+    /**
+     * Relative path to lang project
+     */
+    path: string
+}
+
+export interface LangProjectsSnapshot {
+    projects: LangProjectInfo[]
+}
+
+/**
+ * Save lang projects to file
+ * Use LangProjectsSnapshot as json format
+ * @param file file to store
+ * @param out - relative paths to lang projects
+ */
+function storeLangProjects(file: string, out: string[]) {
+    const data: LangProjectsSnapshot = {
+        projects: out.map((project) => ({ path: project }))
+    };
+    fs.writeFileSync(file, JSON.stringify(data, null, 2));
+}
+
 function main() {
-    console.info("i18n")
+    console.info("i18n-finder")
     const projects: string[] = [];
     findLangProjects(rootDir, projects);
     console.info("Found i18n projects:");
     projects.forEach((project) => {
         console.info(project);
     });
+    console.info("Storing lang projects to file...");
+    storeLangProjects(path.join(rootDir, "src/lang-projects.json"), projects);
 }
 
 main()
