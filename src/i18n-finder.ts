@@ -62,20 +62,23 @@ function main() {
 Finds i18n projects in the ../platform repository and store paths to file
 ./src/lang-projects.json
 
-Platform project is big and this step allows to reduce dev time during i18n jobs. 
+Platform project is big and this step allows to significantly reduce dev time during i18n tasks. 
 
-This script should be run from the root of the repository.
+BEST PRACTICES:
+- This script should be run from the root of the repository.
+- Push [./src/lang-projects.json] changes to platform-devtool repository to save your team mates time.
 
     `)
 
     const projects: string[] = [];
     findLangProjects(rootDir, projects);
-    console.info("Found i18n projects:");
+    console.info(`Found ${projects.length} i18n projects:`);
     projects.forEach((project) => {
         console.info(project);
     });
-    console.info("Storing lang projects to file...");
+    console.info("Storing lang projects to the [src/lang-projects.json] file...");
     storeLangProjects(path.join(projectRoot, "src/lang-projects.json"), projects);
+    console.info("DONE!!!");
 }
 
 main()
