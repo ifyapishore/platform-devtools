@@ -78,7 +78,7 @@ BEST PRACTICES:
     });
     console.info("🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢");
     console.info("Storing lang projects to the [src/lang-projects.json] file...");
-    storeLangProjects(path.join(ENVT.projectRoot, "src/lang-projects.json"), projects);
+    storeLangProjects(ENVT.langProjectsFile, projects);
     console.info("DONE!!!");
 }
 
