@@ -3,7 +3,7 @@ import path from 'path';
 import {LangProjectsSnapshot} from "src/lang-projects";
 
 const rootDir = "../platform"
-
+const projectRoot = path.resolve(__dirname, '..');
 const skipDirs = ["node_modules", "dist", "build", "out", "lib", "test"];
 
 /**
@@ -18,7 +18,7 @@ const skipDirs = ["node_modules", "dist", "build", "out", "lib", "test"];
 function findLangProjects(dir: string, out: string[]) {
     const files = fs.readdirSync(dir);
 
-    for(const file of files) {
+    for (const file of files) {
         const fullPath = path.join(dir, file);
         const stat = fs.statSync(fullPath);
 
@@ -51,13 +51,23 @@ function findLangProjects(dir: string, out: string[]) {
  */
 function storeLangProjects(file: string, out: string[]) {
     const data: LangProjectsSnapshot = {
-        projects: out.map((project) => ({ path: project }))
+        projects: out.map((project) => ({path: project}))
     };
     fs.writeFileSync(file, JSON.stringify(data, null, 2));
 }
 
 function main() {
-    console.info("i18n-finder")
+    console.info(`platform-devtool: i18n-finder
+
+Finds i18n projects in the ../platform repository and store paths to file
+./src/lang-projects.json
+
+Platform project is big and this step allows to reduce dev time during i18n jobs. 
+
+This script should be run from the root of the repository.
+
+    `)
+
     const projects: string[] = [];
     findLangProjects(rootDir, projects);
     console.info("Found i18n projects:");
@@ -65,7 +75,7 @@ function main() {
         console.info(project);
     });
     console.info("Storing lang projects to file...");
-    storeLangProjects(path.join(rootDir, "src/lang-projects.json"), projects);
+    storeLangProjects(path.join(projectRoot, "src/lang-projects.json"), projects);
 }
 
 main()

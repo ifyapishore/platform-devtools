@@ -1,0 +1,163 @@
+{
+  "projects": [
+    {
+      "path": "plugins/achievement-assets"
+    },
+    {
+      "path": "plugins/activity-assets"
+    },
+    {
+      "path": "plugins/analytics-collector-assets"
+    },
+    {
+      "path": "plugins/attachment-assets"
+    },
+    {
+      "path": "plugins/bitrix-assets"
+    },
+    {
+      "path": "plugins/board-assets"
+    },
+    {
+      "path": "plugins/calendar-assets"
+    },
+    {
+      "path": "plugins/card-assets"
+    },
+    {
+      "path": "plugins/chat-assets"
+    },
+    {
+      "path": "plugins/chunter-assets"
+    },
+    {
+      "path": "plugins/contact-assets"
+    },
+    {
+      "path": "plugins/controlled-documents-assets"
+    },
+    {
+      "path": "plugins/desktop-preferences-assets"
+    },
+    {
+      "path": "plugins/diffview-assets"
+    },
+    {
+      "path": "plugins/document-assets"
+    },
+    {
+      "path": "plugins/drive-assets"
+    },
+    {
+      "path": "plugins/export-assets"
+    },
+    {
+      "path": "plugins/gmail-assets"
+    },
+    {
+      "path": "plugins/guest-assets"
+    },
+    {
+      "path": "plugins/hr-assets"
+    },
+    {
+      "path": "plugins/inbox-assets"
+    },
+    {
+      "path": "plugins/inventory-assets"
+    },
+    {
+      "path": "plugins/lead-assets"
+    },
+    {
+      "path": "plugins/login-assets"
+    },
+    {
+      "path": "plugins/love-assets"
+    },
+    {
+      "path": "plugins/mail-assets"
+    },
+    {
+      "path": "plugins/media-assets"
+    },
+    {
+      "path": "plugins/notification-assets"
+    },
+    {
+      "path": "plugins/onboard-assets"
+    },
+    {
+      "path": "plugins/preference-assets"
+    },
+    {
+      "path": "plugins/print-assets"
+    },
+    {
+      "path": "plugins/process-assets"
+    },
+    {
+      "path": "plugins/products-assets"
+    },
+    {
+      "path": "plugins/questions-assets"
+    },
+    {
+      "path": "plugins/recorder-assets"
+    },
+    {
+      "path": "plugins/recruit-assets"
+    },
+    {
+      "path": "plugins/request-assets"
+    },
+    {
+      "path": "plugins/setting-assets"
+    },
+    {
+      "path": "plugins/support-assets"
+    },
+    {
+      "path": "plugins/survey-assets"
+    },
+    {
+      "path": "plugins/tags-assets"
+    },
+    {
+      "path": "plugins/task-assets"
+    },
+    {
+      "path": "plugins/telegram-assets"
+    },
+    {
+      "path": "plugins/templates-assets"
+    },
+    {
+      "path": "plugins/test-management-assets"
+    },
+    {
+      "path": "plugins/text-editor-assets"
+    },
+    {
+      "path": "plugins/time-assets"
+    },
+    {
+      "path": "plugins/tracker-assets"
+    },
+    {
+      "path": "plugins/training-assets"
+    },
+    {
+      "path": "plugins/uploader-assets"
+    },
+    {
+      "path": "plugins/view-assets"
+    },
+    {
+      "path": "plugins/workbench-assets"
+    },
+    {
+      "path": "services/github/github-assets"
+    }
+  ]
+}
