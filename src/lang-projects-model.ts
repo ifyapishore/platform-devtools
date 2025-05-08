@@ -48,3 +48,22 @@ export function checkLanguageFiles(info: LangProjectInfo) {
     checkAutoLangFile(langDir);
     checkLangFiles(langDir);
 }
+
+export function checkUnknownLanguageFiles(info: LangProjectInfo) {
+    const root = path.join(ENVT.platformDir, info.path);
+    const langDir = path.join(root, "lang");
+
+    const files = fs.readdirSync(langDir);
+    files.forEach((file) => {
+        const fileName = file.split(".")[0]
+        const fileExt = file.split(".")[1]
+        // skip non-json files
+        if(fileExt !== "json") return;
+        // skip auto.json
+        if(fileName === "auto") return;
+
+        if (!ENVT.supportedLanguages.includes(fileName)) {
+            console.warn(`❌ - ${file} - Unknown language file`);
+        }
+    });
+}

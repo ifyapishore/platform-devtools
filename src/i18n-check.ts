@@ -1,6 +1,6 @@
 import fs from "fs";
 import {ENVT} from "./env";
-import {checkLanguageFiles, loadLangProjectsFileModel} from "./lang-projects-model";
+import {checkLanguageFiles, checkUnknownLanguageFiles, loadLangProjectsFileModel} from "./lang-projects-model";
 
 function main() {
     console.info(`platform-devtool: i18n-check
@@ -18,6 +18,7 @@ Loads i18n projects from the ./src/lang-projects.json file and perform sanity ch
         console.info("=====================================");
         console.info(project.path);
         checkLanguageFiles(project);
+        checkUnknownLanguageFiles(project);
     });
 
 
