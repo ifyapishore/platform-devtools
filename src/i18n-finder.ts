@@ -30,7 +30,7 @@ function findLangProjects(dir: string, out: string[]) {
                     const enFile = path.join(langDir, "en.json");
                     if (fs.existsSync(enFile)) {
                         // change to relative path
-                        const relativePath = path.relative(ENVT.rootDir, fullPath);
+                        const relativePath = path.relative(ENVT.platformDir, fullPath);
                         out.push(relativePath);
                     }
                 }
@@ -70,7 +70,7 @@ BEST PRACTICES:
     console.info(`Working...`);
 
     const projects: string[] = [];
-    findLangProjects(ENVT.rootDir, projects);
+    findLangProjects(ENVT.platformDir, projects);
     console.info("🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢");
     console.info(`Found ${projects.length} i18n projects:\n`);
     projects.forEach((project) => {
