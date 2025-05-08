@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import {LangProjectsSnapshot} from "src/lang-projects";
 
 const rootDir = "../platform"
 
@@ -40,17 +41,6 @@ function findLangProjects(dir: string, out: string[]) {
             findLangProjects(fullPath, out);
         }
     }
-}
-
-export interface LangProjectInfo {
-    /**
-     * Relative path to lang project
-     */
-    path: string
-}
-
-export interface LangProjectsSnapshot {
-    projects: LangProjectInfo[]
 }
 
 /**
