@@ -1,4 +1,3 @@
-import fs from "fs";
 import {ENVT} from "./env";
 import {checkLanguageFiles, checkUnknownLanguageFiles, loadLangProjectsFileModel} from "./lang-projects-model";
 
@@ -16,10 +15,15 @@ Loads i18n projects from the ./src/lang-projects.json file and perform sanity ch
     console.info(`Loaded ${projects.projects.length} i18n projects from the [${ENVT.langProjectsFile}] file:\n`);
 
     projects.projects.forEach((project) => {
-        console.info("=====================================");
-        console.info(project.path);
-        checkLanguageFiles(project);
-        checkUnknownLanguageFiles(project);
+        try {
+            // startTask()
+            console.info("=====================================");
+            console.info(project.path);
+            checkLanguageFiles(project);
+            checkUnknownLanguageFiles(project);
+        } finally {
+            // endTask()
+        }
     });
 
     console.info(`
