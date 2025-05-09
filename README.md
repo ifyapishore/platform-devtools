@@ -42,9 +42,33 @@ This tool uses the results of the i18n-finder tool to check the translation stat
 
 For each i18n subproject/plugin the tool will:
 - Use lang/auto.json file as a source of automatic translations.
-- Check if the translation is missing in the lang/auto.json file.
+- Check if all languages are supported by platform subproject/plugin.
+- Use auto.json and en.json files as the source of text keys.
+- Check if the translation is missing in the {lang}.json file.
+- Check if the UNKNOWN translation is found in the {lang}.json file.
+- Check if the translation is automatic or manual.
 
-- Do not touch translations without "<⚠️>" char sequence.
-- Do not change the original strings.
-- Do not change the order of JSON keys.
+### i18n-update
+
+Update all lang files according auto.json file content.
+
+STEP #1: Check if translation service is required and update auto.lock:
+- Read last translation from the auto.lock JSON file
+- Use translate service only if the original english string in the auto.json is different/missing in the auto.lock file. 
+- Translate only missing/changed strings in auto.json.
+- Store new translations in the auto.lock file.
+
+STEP #2: Update all lang files:
+- Use the auto.lock file as a source of translations.
+- Update all lang files with the translations from the auto.lock file if {lang}.json file has entry with postfix  "<⚠️>".
+- Keep the original translations in the {lang}.json file.
+- Keep the original translations order in the {lang}.json file.
+- Do not remove unused translations from the {lang}.json file.
+
+### i18n-cleanup
+
+Cleanup the i18n subprojects/plugins in the platform project.
+
+- Go thought the i18n-update process
+- Remove unused translations from the {lang}.json files.
 

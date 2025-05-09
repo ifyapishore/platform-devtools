@@ -1,5 +1,11 @@
 import {ENVT} from "./env";
-import {checkLanguageFiles, checkUnknownLanguageFiles, loadLangProjectsFileModel} from "./lang-projects-model";
+import {
+    checkLanguageFiles,
+    checkUnknownLanguageFiles,
+    findMissingAndNotUsedTranslations,
+    LangProjectReport,
+    loadLangProjectsFileModel
+} from "./lang-projects-model";
 
 function main() {
     const start = new Date().getTime();
@@ -14,17 +20,37 @@ Loads i18n projects from the ./src/lang-projects.json file and perform sanity ch
     const projects = loadLangProjectsFileModel(ENVT.langProjectsFile);
     console.info(`Loaded ${projects.projects.length} i18n projects from the [${ENVT.langProjectsFile}] file:\n`);
 
-    projects.projects.forEach((project) => {
+    const reports = projects.projects.map((project) => {
+        const report = new LangProjectReport(project)
         try {
             // startTask()
-            console.info("=====================================");
-            console.info(project.path);
-            checkLanguageFiles(project);
+            checkLanguageFiles(project, report);
             checkUnknownLanguageFiles(project);
+            const rep = findMissingAndNotUsedTranslations(project);
+            if (rep) {
+                // console.info("Missing or not used translations:");
+                // console.info(JSON.stringify(rep));
+            } else {
+                // console.info("All translations are used");
+            }
         } finally {
             // endTask()
         }
+        return report;
     });
+
+    reports.forEach((report) => {
+      if(report.hasReport) {
+          console.info("=====================================");
+          console.info(report.info.path);
+          report.errors.forEach((error) => {
+              console.info(`❌ - ${error}`);
+          });
+          report.warnings.forEach((warning) => {
+              console.info(`⚠️ - ${warning}`);
+          });
+      }
+    })
 
     console.info(`
 

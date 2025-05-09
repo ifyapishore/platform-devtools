@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import {ENVT} from "./env";
-import {LangProjectsSnapshot} from "./lang-projects-model";
+import {LangProjectsSnapshot} from "./models";
 
 /**
  * Recursively iterate projects structure and return folders with i18n files
