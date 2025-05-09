@@ -52,6 +52,16 @@ Execution:
 npm run i18n-check
 ```
 
+### i18n-fixes (in progress)
+
+Fix some common issues
+
+#### Rename sp.json to es.json
+
+SAMPLE RESULT:
+
+![Sample](./assets/fixRenameSample.png)
+
 ### i18n-update (in progress)
 
 Update all lang files according auto.json file content.

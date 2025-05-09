@@ -17,4 +17,5 @@ export function fixSpainFiles(project: LangProject, report: LangProjectReport) {
         return;
     }
     report.fix(`Renaming [${spFile}] to [${esFile}]`);
+    fs.renameSync(spFile, esFile);
 }
