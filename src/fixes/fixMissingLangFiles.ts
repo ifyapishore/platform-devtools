@@ -21,5 +21,7 @@ async function fixMissingLangFile(project: LangProject, lang: string, originals:
     const langFile = project.createLangFile(lang);
 
     const ids: string[] = await langFile.translateMissingStrings(originals);
+
+    langFile.save()
 }
 

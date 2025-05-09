@@ -59,8 +59,8 @@ export class LangProject {
         })
     }
 
-    getLangFile(lang: string) {
-        return path.join(this.langDir, `${lang}.json`);
+    getLangFile(langId: string) {
+        return path.join(this.langDir, `${langId}.json`);
     }
 
     createLangFile(langId: string) {

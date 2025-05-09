@@ -10,8 +10,10 @@ export class LangFile {
     readonly strings: LangFileTranslation[] = []
     private raw: LangFileRaw;
     readonly langId: string;
+    private project: LangProject;
 
     constructor(langId: string, raw: LangFileRaw, project: LangProject) {
+        this.project = project
         this.langId = langId
         this.raw = raw;
         for (const [key, value] of Object.entries(raw.string)) {
@@ -32,6 +34,17 @@ export class LangFile {
         // translate it using
         // export async function translateBatch(pairs: [string, string][], targetLang: string): Promise<Record<string, string>>
         return [];
+    }
+
+    save() {
+        const arr: [string, string][] = this.strings.map(src => [src.id, src.text])
+
+        const orderedObj = Object.fromEntries(arr);
+        const json: LangFileRaw = {
+            string: orderedObj
+        }
+        const raw = JSON.stringify(json, null, 2);
+        fs.writeFileSync(this.project.getLangFile(this.langId), raw);
     }
 }
 
