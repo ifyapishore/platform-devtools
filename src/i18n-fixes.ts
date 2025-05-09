@@ -1,3 +1,4 @@
+import {fixMissingLangFiles} from "src/fixes/fixMissingLangFiles";
 import {fixSpainFiles} from "src/fixes/fixSpainFiles";
 import {LangProject} from "src/project";
 import {LangProjectReport} from "src/report";
@@ -30,6 +31,7 @@ function main() {
             if (fixSpainFilesOn) {
                 fixSpainFiles(project, report);
             }
+            fixMissingLangFiles(project, report);
         } finally {
             // endTask()
         }
