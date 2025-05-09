@@ -9,17 +9,20 @@
   ],
   "scripts": {
     "i18n-finder": "ts-node-dev -r tsconfig-paths/register --transpile-only src/i18n-finder.ts",
-    "i18n-check": "ts-node-dev -r tsconfig-paths/register --transpile-only src/i18n-check.ts"
+    "i18n-check": "ts-node-dev -r tsconfig-paths/register --transpile-only src/i18n-check.ts",
+    "google-test": "ts-node-dev -r tsconfig-paths/register --transpile-only src/translation-service/google-translate.ts"
   },
   "keywords": [],
   "author": "ify@kibibox.com",
   "license": "",
   "devDependencies": {
+    "@types/node-fetch": "^2.6.12",
     "log-update": "^6.1.0",
     "ts-node-dev": "^2.0.0",
     "typescript": "5.5.4"
   },
   "dependencies": {
+    "@google-cloud/translate": "^9.0.1",
     "countries-list": "^3.1.1",
     "deep-equal": "^2.2.3",
     "dotenv": "^16.4.5",

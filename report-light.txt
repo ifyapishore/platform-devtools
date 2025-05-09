@@ -1,9 +1,3 @@
-/Users/ify/.nvm/versions/node/v20.11.0/bin/npm run i18n-check
-
-> platform-dev-tools@1.0.0 i18n-check
-> ts-node-dev -r tsconfig-paths/register --transpile-only src/i18n-check.ts
-
-[INFO] 17:28:32 ts-node-dev ver. 2.0.0 (using ts-node ver. 10.9.2, typescript ver. 5.5.4)
 platform-devtool: i18n-check
 
 Loads i18n projects from the ./src/lang-projects.json file and perform sanity check
@@ -15,41 +9,41 @@ Loaded 53 i18n projects from the [/Users/ify/PROJECTS/platform-devtools/src/lang
 
 =====================================
 plugins/activity-assets
-❌ - Missing translations in es: At
-❌ - Missing translations in pt: At
+❌ - Missing translations in "es" locale: At
+❌ - Missing translations in "pt" locale: At
 =====================================
 plugins/analytics-collector-assets
 ❌ - de.json is missing
 ❌ - fr.json is missing
 ❌ - it.json is missing
 ❌ - zh.json is missing
-⚠️ - Unknown translations in cs: Email
+⚠️ - Unknown translations in "cs" locale: Email
 =====================================
 plugins/calendar-assets
-❌ - Missing translations in ja: CalDavAccessPasswordWarning, MeetingScheduledNotification, MeetingRescheduledNotification, MeetingCanceledNotification
+❌ - Missing translations in "ja" locale: CalDavAccessPasswordWarning, MeetingScheduledNotification, MeetingRescheduledNotification, MeetingCanceledNotification
 =====================================
 plugins/card-assets
-❌ - Missing translations in it: NumberTypes
+❌ - Missing translations in "it" locale: NumberTypes
 =====================================
 plugins/chunter-assets
-❌ - Missing translations in cs: ResolveThread
-❌ - Missing translations in es: ResolveThread
-❌ - Missing translations in fr: ResolveThread
-❌ - Missing translations in it: ResolveThread
-❌ - Missing translations in pt: ResolveThread
-❌ - Missing translations in zh: ResolveThread
+❌ - Missing translations in "cs" locale: ResolveThread
+❌ - Missing translations in "es" locale: ResolveThread
+❌ - Missing translations in "fr" locale: ResolveThread
+❌ - Missing translations in "it" locale: ResolveThread
+❌ - Missing translations in "pt" locale: ResolveThread
+❌ - Missing translations in "zh" locale: ResolveThread
 =====================================
 plugins/contact-assets
-❌ - Missing translations in cs: SocialId, SocialIds, Type, Confirmed
-❌ - Missing translations in de: SocialId, SocialIds, Type, Confirmed
+❌ - Missing translations in "cs" locale: SocialId, SocialIds, Type, Confirmed
+❌ - Missing translations in "de" locale: SocialId, SocialIds, Type, Confirmed
 =====================================
 plugins/controlled-documents-assets
 ❌ - es.json is missing
-❌ - Missing translations in de: ConfirmApprovalSubmission, ConfirmReviewSubmission
-❌ - Missing translations in it: ConfirmApprovalSubmission, ConfirmReviewSubmission
-❌ - Missing translations in ja: Creator, AllDocumentSpaces
-❌ - Missing translations in pt: DocumentTemplate, DocumentTemplates, DocumentCode, TemplateCode, DocumentCodePlaceholder, DocumentPrefixPlaceholder, DocumentPrefix, DocumentTemplateCreateLabel, DocumentCategoryCreateLabel, CreateDocumentCategory, DocumentCategoryAlreadyExists, DocumentCategoryCodeAlreadyExists, AttachmentsMax, Resolve, Unresolve, Pending, Resolved, ShowResolved, Ordering, Effective, Archived, Deleted, MetaAbstract, MakeDocumentObsoleteDialog, ContentTab, TeamTab, MetaTab, ChangeControlTab, ReleaseTab, HistoryTab, Untitled, Copy, AccessWorkarea, EffectiveLibrary, WorkingLibrary, CreateDraftQmsDocuments, OwnDocumentAskReviewGetApproval, ApproveDocuments, ReassignOwnershipToAnotherUser, MakeDocumentEffective, CreateDraftQmsTemplates, ChangeControl, ReviewInterval, SelectReviewers, SelectApprovers, RequestsToReviewTheDoc, RequestsToApproveTheDoc, Parent, Template, GeneralInfo, InProgress, EditDescription, EditGuidance, NewDocument, NewDocumentCategory, NewDocumentTemplate, LocationStepTitle, TemplateStepTitle, InfoStepTitle, TeamStepTitle, TitleAndDescr, Reason, AbstractPlaceholder, NewDocCreation, NewTemplateCreation, NewTemplatePlaceholder, CustomReason, ReasonPlaceholder, EditDocument, Key, CommentsSequence, Email, Password, FieldIsEmpty, ValidatingCredentials, GeneralDocumentation, TechnicalDocumentation, UnsortedTemplates, Project, Projects, ExternalSpace, DocumentSpaceType, EffectiveImmediately, EffectiveOn, PeriodicReviewToBeCompleted, MonthsAfterEffectiveDate, ToBePassedWithin, AttemptsAnd, DaysAfterEffectiveDate, Index, Path, CreateChildDocument, CreateChildTemplate, All, Space, SelectParent, PrefixInUse, CodeInUse, ChangeCode, ChangePrefix, MarkDocAsDeleted, MarkDocsAsDeleted, MarkDocAsDeletedConfirm, ArchiveDocs, ArchiveDocsConfirm, DocumentInHierarchy, FirstDraftVersion, EffectiveDocumentLifecycle, ReasonAndImpact, ImpactAnalysis, ImpactedDocuments, CreateDocumentFailed, CreateDocumentTemplateFailed, TryAgain, DescribeChanges, DescribeReason, DescribeImpact, AddDocument, NoDocuments, SysTemplate, DocumentTrainingDueDays, DocumentTrainingEnabled, Own, Snapshot, Snapshots, ControlledSnapshot, Name, DraftRevision, CreateNewDraft, RestoreDraft, ChangeSeverity, Reference, History, Signatories, Page, Of, CreatedFromTemplate, ViewAll, Readonly, NewDocumentSpace, EditDocumentSpace, DocSpaceDescriptionPlaceholder, Members, RoleLabel, CreateOrgSpace, ReviewDocumentPermission, ReviewDocumentDescription, ApproveDocumentPermission, ApproveDocumentDescription, ArchiveDocumentPermission, ArchiveDocumentDescription, CoAuthorDocumentPermission, CoAuthorDocumentDescription, CreateDocumentPermission, CreateDocumentDescription, UpdateDocumentOwnerPermission, UpdateDocumentOwnerDescription, CreateDocumentCategoryPermission, CreateDocumentCategoryDescription, UpdateDocumentCategoryPermission, UpdateDocumentCategoryDescription, DeleteDocumentCategoryPermission, DeleteDocumentCategoryDescription, ConfigLabel, ConfigDescription, Transfer, TransferWarning, TransferDocuments, TransferDocumentsHint, LatestVersionHint, CannotDeleteFolder, CannotDeleteFolderHint
-❌ - Missing translations in zh: ConfirmApprovalSubmission, ConfirmReviewSubmission
+❌ - Missing translations in "de" locale: ConfirmApprovalSubmission, ConfirmReviewSubmission
+❌ - Missing translations in "it" locale: ConfirmApprovalSubmission, ConfirmReviewSubmission
+❌ - Missing translations in "ja" locale: Creator, AllDocumentSpaces
+❌ - Missing translations in "pt" locale: DocumentTemplate, DocumentTemplates, DocumentCode, TemplateCode, DocumentCodePlaceholder, DocumentPrefixPlaceholder, DocumentPrefix, DocumentTemplateCreateLabel, DocumentCategoryCreateLabel, CreateDocumentCategory, DocumentCategoryAlreadyExists, DocumentCategoryCodeAlreadyExists, AttachmentsMax, Resolve, Unresolve, Pending, Resolved, ShowResolved, Ordering, Effective, Archived, Deleted, MetaAbstract, MakeDocumentObsoleteDialog, ContentTab, TeamTab, MetaTab, ChangeControlTab, ReleaseTab, HistoryTab, Untitled, Copy, AccessWorkarea, EffectiveLibrary, WorkingLibrary, CreateDraftQmsDocuments, OwnDocumentAskReviewGetApproval, ApproveDocuments, ReassignOwnershipToAnotherUser, MakeDocumentEffective, CreateDraftQmsTemplates, ChangeControl, ReviewInterval, SelectReviewers, SelectApprovers, RequestsToReviewTheDoc, RequestsToApproveTheDoc, Parent, Template, GeneralInfo, InProgress, EditDescription, EditGuidance, NewDocument, NewDocumentCategory, NewDocumentTemplate, LocationStepTitle, TemplateStepTitle, InfoStepTitle, TeamStepTitle, TitleAndDescr, Reason, AbstractPlaceholder, NewDocCreation, NewTemplateCreation, NewTemplatePlaceholder, CustomReason, ReasonPlaceholder, EditDocument, Key, CommentsSequence, Email, Password, FieldIsEmpty, ValidatingCredentials, GeneralDocumentation, TechnicalDocumentation, UnsortedTemplates, Project, Projects, ExternalSpace, DocumentSpaceType, EffectiveImmediately, EffectiveOn, PeriodicReviewToBeCompleted, MonthsAfterEffectiveDate, ToBePassedWithin, AttemptsAnd, DaysAfterEffectiveDate, Index, Path, CreateChildDocument, CreateChildTemplate, All, Space, SelectParent, PrefixInUse, CodeInUse, ChangeCode, ChangePrefix, MarkDocAsDeleted, MarkDocsAsDeleted, MarkDocAsDeletedConfirm, ArchiveDocs, ArchiveDocsConfirm, DocumentInHierarchy, FirstDraftVersion, EffectiveDocumentLifecycle, ReasonAndImpact, ImpactAnalysis, ImpactedDocuments, CreateDocumentFailed, CreateDocumentTemplateFailed, TryAgain, DescribeChanges, DescribeReason, DescribeImpact, AddDocument, NoDocuments, SysTemplate, DocumentTrainingDueDays, DocumentTrainingEnabled, Own, Snapshot, Snapshots, ControlledSnapshot, Name, DraftRevision, CreateNewDraft, RestoreDraft, ChangeSeverity, Reference, History, Signatories, Page, Of, CreatedFromTemplate, ViewAll, Readonly, NewDocumentSpace, EditDocumentSpace, DocSpaceDescriptionPlaceholder, Members, RoleLabel, CreateOrgSpace, ReviewDocumentPermission, ReviewDocumentDescription, ApproveDocumentPermission, ApproveDocumentDescription, ArchiveDocumentPermission, ArchiveDocumentDescription, CoAuthorDocumentPermission, CoAuthorDocumentDescription, CreateDocumentPermission, CreateDocumentDescription, UpdateDocumentOwnerPermission, UpdateDocumentOwnerDescription, CreateDocumentCategoryPermission, CreateDocumentCategoryDescription, UpdateDocumentCategoryPermission, UpdateDocumentCategoryDescription, DeleteDocumentCategoryPermission, DeleteDocumentCategoryDescription, ConfigLabel, ConfigDescription, Transfer, TransferWarning, TransferDocuments, TransferDocumentsHint, LatestVersionHint, CannotDeleteFolder, CannotDeleteFolderHint
+❌ - Missing translations in "zh" locale: ConfirmApprovalSubmission, ConfirmReviewSubmission
 =====================================
 plugins/desktop-preferences-assets
 ❌ - de.json is missing
@@ -68,33 +62,33 @@ plugins/diffview-assets
 ❌ - zh.json is missing
 =====================================
 plugins/document-assets
-⚠️ - Unknown translations in zh: UnassignToDo, UnassignToDoConfirm, ReassignToDo, ReassignToDoConfirm
+⚠️ - Unknown translations in "zh" locale: UnassignToDo, UnassignToDoConfirm, ReassignToDo, ReassignToDoConfirm
 =====================================
 plugins/login-assets
-❌ - Missing translations in cs: WorkspaceArchivedDesc
-⚠️ - Unknown translations in cs: Slogan, WorkspaceIsArchived
-⚠️ - Unknown translations in de: Slogan
+❌ - Missing translations in "cs" locale: WorkspaceArchivedDesc
+⚠️ - Unknown translations in "cs" locale: Slogan, WorkspaceIsArchived
+⚠️ - Unknown translations in "de" locale: Slogan
 =====================================
 plugins/love-assets
-❌ - Missing translations in de: EndMeeting, Kick
+❌ - Missing translations in "de" locale: EndMeeting, Kick
 =====================================
 plugins/media-assets
 ❌ - it.json is missing
 =====================================
 plugins/notification-assets
-❌ - Missing translations in es: YouRemovedCollaborators, Unsubscribe, Unreads
-❌ - Missing translations in pt: YouRemovedCollaborators, Unsubscribe, Unreads
-⚠️ - Unknown translations in es: FlatList, GroupedList
-⚠️ - Unknown translations in pt: FlatList, GroupedList
+❌ - Missing translations in "es" locale: YouRemovedCollaborators, Unsubscribe, Unreads
+❌ - Missing translations in "pt" locale: YouRemovedCollaborators, Unsubscribe, Unreads
+⚠️ - Unknown translations in "es" locale: FlatList, GroupedList
+⚠️ - Unknown translations in "pt" locale: FlatList, GroupedList
 =====================================
 plugins/onboard-assets
 ❌ - de.json is missing
 ❌ - it.json is missing
 =====================================
 plugins/process-assets
-❌ - Missing translations in ja: Result, RequestResult, NoResultRequired
-❌ - Missing translations in pt: Execution
-⚠️ - Unknown translations in pt: Execu  tion
+❌ - Missing translations in "ja" locale: Result, RequestResult, NoResultRequired
+❌ - Missing translations in "pt" locale: Execution
+⚠️ - Unknown translations in "pt" locale: Execu  tion
 =====================================
 plugins/products-assets
 ❌ - es.json is missing
@@ -104,36 +98,36 @@ plugins/questions-assets
 ❌ - pt.json is missing
 =====================================
 plugins/recruit-assets
-⚠️ - Unknown translations in it: MatchVacancy
+⚠️ - Unknown translations in "it" locale: MatchVacancy
 =====================================
 plugins/setting-assets
-❌ - Missing translations in es: SpaceTypes, NewSpaceType, SpaceTypeTitle, General, Description, CountSpaces, Roles, RoleName, Permissions
-❌ - Missing translations in pt: SpaceTypes, NewSpaceType, SpaceTypeTitle, General, Description, CountSpaces, Roles, RoleName, Permissions
+❌ - Missing translations in "es" locale: SpaceTypes, NewSpaceType, SpaceTypeTitle, General, Description, CountSpaces, Roles, RoleName, Permissions
+❌ - Missing translations in "pt" locale: SpaceTypes, NewSpaceType, SpaceTypeTitle, General, Description, CountSpaces, Roles, RoleName, Permissions
 =====================================
 plugins/survey-assets
-❌ - Missing translations in cs: EditAnswers
-❌ - Missing translations in de: EditAnswers
-❌ - Missing translations in es: EditAnswers
-❌ - Missing translations in fr: EditAnswers
-❌ - Missing translations in it: EditAnswers
-❌ - Missing translations in pt: EditAnswers
-❌ - Missing translations in zh: EditAnswers
+❌ - Missing translations in "cs" locale: EditAnswers
+❌ - Missing translations in "de" locale: EditAnswers
+❌ - Missing translations in "es" locale: EditAnswers
+❌ - Missing translations in "fr" locale: EditAnswers
+❌ - Missing translations in "it" locale: EditAnswers
+❌ - Missing translations in "pt" locale: EditAnswers
+❌ - Missing translations in "zh" locale: EditAnswers
 =====================================
 plugins/task-assets
-❌ - Missing translations in es: CountTasks
-❌ - Missing translations in pt: LastSave, Published, CountTasks, CountProjects, ProjectTypeTitle, ProcessStates, Type, Group, Color, Identifier, RenameStatus, UpdateTasksStatusRequest
-⚠️ - Unknown translations in pt: Última gravação, Publicado, ContagemTarefas, ContagemProjetos, TítuloTipoProjeto, EstadosProcesso, Tipo, Grupo, Cor, Identificador, RenomearStatus, AtualizarPedidoDeStatusDaTarefa
+❌ - Missing translations in "es" locale: CountTasks
+❌ - Missing translations in "pt" locale: LastSave, Published, CountTasks, CountProjects, ProjectTypeTitle, ProcessStates, Type, Group, Color, Identifier, RenameStatus, UpdateTasksStatusRequest
+⚠️ - Unknown translations in "pt" locale: Última gravação, Publicado, ContagemTarefas, ContagemProjetos, TítuloTipoProjeto, EstadosProcesso, Tipo, Grupo, Cor, Identificador, RenomearStatus, AtualizarPedidoDeStatusDaTarefa
 =====================================
 plugins/text-editor-assets
-❌ - Missing translations in de: TodoItem
-❌ - Missing translations in es: MergeCells, SplitCells, CategoryCell, SelectTable, MermaidDiargram, Comment, AddComment, AddCommentPlaceholder, SetCellHighlightColor, SetTextColor
-❌ - Missing translations in fr: MergeCells, SplitCells, CategoryCell, SelectTable, MermaidDiargram, Comment, AddComment, AddCommentPlaceholder, SetCellHighlightColor, SetTextColor
-❌ - Missing translations in it: TodoItem
-❌ - Missing translations in pt: MergeCells, SplitCells, CategoryCell, SelectTable, MermaidDiargram, Comment, AddComment, AddCommentPlaceholder, SetCellHighlightColor, SetTextColor
-❌ - Missing translations in zh: MergeCells, SplitCells, CategoryCell, SelectTable, MermaidDiargram, Comment, AddComment, AddCommentPlaceholder, SetCellHighlightColor, SetTextColor
+❌ - Missing translations in "de" locale: TodoItem
+❌ - Missing translations in "es" locale: MergeCells, SplitCells, CategoryCell, SelectTable, MermaidDiargram, Comment, AddComment, AddCommentPlaceholder, SetCellHighlightColor, SetTextColor
+❌ - Missing translations in "fr" locale: MergeCells, SplitCells, CategoryCell, SelectTable, MermaidDiargram, Comment, AddComment, AddCommentPlaceholder, SetCellHighlightColor, SetTextColor
+❌ - Missing translations in "it" locale: TodoItem
+❌ - Missing translations in "pt" locale: MergeCells, SplitCells, CategoryCell, SelectTable, MermaidDiargram, Comment, AddComment, AddCommentPlaceholder, SetCellHighlightColor, SetTextColor
+❌ - Missing translations in "zh" locale: MergeCells, SplitCells, CategoryCell, SelectTable, MermaidDiargram, Comment, AddComment, AddCommentPlaceholder, SetCellHighlightColor, SetTextColor
 =====================================
 plugins/tracker-assets
-❌ - Missing translations in cs: Space, Document, DocumentIcon, DocumentColor, NewIssueDialogClose, NewIssueDialogCloseNote, RemoveComponentDialogClose, RemoveComponentDialogCloseNote
+❌ - Missing translations in "cs" locale: Space, Document, DocumentIcon, DocumentColor, NewIssueDialogClose, NewIssueDialogCloseNote, RemoveComponentDialogClose, RemoveComponentDialogCloseNote
 =====================================
 plugins/training-assets
 ❌ - es.json is missing
@@ -142,7 +136,7 @@ plugins/uploader-assets
 ❌ - it.json is missing
 =====================================
 plugins/workbench-assets
-❌ - Missing translations in it: UpgradeDownloadProgress, Widget, WidgetPreferences, OpenInSidebar, OpenInSidebarNewTab, ConfigureWidgets, Tab, WorkspaceIsArchived
+❌ - Missing translations in "it" locale: UpgradeDownloadProgress, Widget, WidgetPreferences, OpenInSidebar, OpenInSidebarNewTab, ConfigureWidgets, Tab, WorkspaceIsArchived
 =====================================
 services/github/github-assets
 ❌ - cs.json is missing
@@ -158,8 +152,8 @@ services/github/github-assets
 🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖🥖
 
 
-DONE. Execution time: 88ms
-DONE. Execution time: 88ms
+DONE. Execution time: 92ms
+DONE. Execution time: 92ms
 ERRORS: 75
 WARNINGS: 9
 

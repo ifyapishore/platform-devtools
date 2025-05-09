@@ -1,0 +1,11 @@
+{
+  "Hello, world!": {
+    "es": "¡Hola Mundo!"
+  },
+  "Conference room": {
+    "es": "Sala de conferencias"
+  },
+  "Conference room ${number}": {
+    "es": "Sala de conferencias ${number}"
+  }
+}
