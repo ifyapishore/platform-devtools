@@ -18,6 +18,14 @@ export class LangFile {
             this.strings.push({id: key, text: value});
         }
     }
+
+    get translationIds(): Set<string> {
+        const ids = new Set<string>();
+        this.strings.forEach((s) => {
+            ids.add(s.id);
+        });
+        return ids;
+    };
 }
 
 export interface LangFileRaw {

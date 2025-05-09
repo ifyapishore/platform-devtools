@@ -31,6 +31,14 @@ export class LangProject {
         return this.path
     }
 
+    get translationIds(): Set<string> {
+        const ids = new Set<string>();
+        Object.values(this.translations).forEach((s) => {
+            ids.add(s.id);
+        });
+        return ids;
+    };
+
     constructor(dir: string) {
         this.path = dir;
         this.root = path.join(ENVT.platformDir, dir)

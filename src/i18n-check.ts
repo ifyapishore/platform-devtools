@@ -1,4 +1,5 @@
 import {checkLangFiles} from "src/checks/checkLangFiles";
+import {checkProjectTranslations} from "src/checks/checkTranslations";
 import {checkUnknownLanguageFiles} from "src/checks/checkUnknownLanguageFiles";
 import {LangProject} from "src/project";
 import {LangProjectReport} from "src/report";
@@ -24,16 +25,9 @@ Loads i18n projects from the ./src/lang-projects.json file and perform sanity ch
         const report = new LangProjectReport(project)
         try {
             project.load()
-            // startTask()
-            // checkLangFiles(project, report);
+            checkLangFiles(project, report);
             checkUnknownLanguageFiles(project, report);
-            // const rep = findMissingAndNotUsedTranslations(project);
-            // if (rep) {
-            //     // console.info("Missing or not used translations:");
-            //     // console.info(JSON.stringify(rep));
-            // } else {
-            //     // console.info("All translations are used");
-            // }
+            checkProjectTranslations(project, report);
         } finally {
             // endTask()
         }
@@ -60,6 +54,23 @@ Loads i18n projects from the ./src/lang-projects.json file and perform sanity ch
 `);
     const end = new Date().getTime();
     console.info("DONE. Execution time: " + (end - start) + "ms");
+    const errorsCounts = reports.reduce((acc, report) => {
+        acc += report.errors.length;
+        return acc;
+    }, 0)
+
+    const warningsCounts = reports.reduce((acc, report) => {
+        acc += report.warnings.length;
+        return acc;
+    }, 0)
+
+    console.info("DONE. Execution time: " + (end - start) + "ms");
+    if(errorsCounts > 0) {
+        console.info(`ERRORS: ${errorsCounts}`);
+    }
+    if(warningsCounts > 0) {
+        console.info(`WARNINGS: ${warningsCounts}`);
+    }
 }
 
 main()
