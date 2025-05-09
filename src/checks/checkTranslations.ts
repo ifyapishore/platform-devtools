@@ -21,9 +21,9 @@ function checkLangTranslations(requiredIds: Set<string>, lang: LangFile, report:
     const unknownIds = new Set<string>([...existingIds].filter((id) => !requiredIds.has(id)));
 
     if(missingIds.size > 0) {
-        report.error(`Missing translations in ${lang.langId}: ${[...missingIds].join(", ")}`);
+        report.error(`Missing translations in "${lang.langId}" locale: ${[...missingIds].join(", ")}`);
     }
     if(unknownIds.size > 0) {
-        report.warn(`Unknown translations in ${lang.langId}: ${[...unknownIds].join(", ")}`);
+        report.warn(`Unknown translations in "${lang.langId}" locale: ${[...unknownIds].join(", ")}`);
     }
 }
