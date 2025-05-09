@@ -3,17 +3,23 @@ import {ENVT} from "src/env";
 import {LangProject} from "src/project";
 import {LangProjectReport} from "src/report";
 
-export function fixMissingLangFiles(project: LangProject, report: LangProjectReport) {
+export async function fixMissingLangFiles(project: LangProject, report: LangProjectReport) {
     const langs = ENVT.supportedLanguages;
-    langs.forEach((lang) => {
-        fixMissingLangFile(project, lang, report);
-    });
+
+    const originals = project.originals;
+    for (const lang of langs) {
+        await fixMissingLangFile(project, lang, originals, report);
+    }
 }
 
-function fixMissingLangFile(project: LangProject, lang: string, report: LangProjectReport) {
-    const langFile = project.getLangFile(lang);
-    if(fs.existsSync(langFile)) return;
+async function fixMissingLangFile(project: LangProject, lang: string, originals: Record<string, string>, report: LangProjectReport) {
+    const langFilePath = project.getLangFile(lang);
+    if (fs.existsSync(langFilePath)) return;
 
-    report.fix(`Creating missing [${langFile}] file in the project ${project.name}.`);
+    report.fix(`Creating missing [${langFilePath}] file in the project ${project.name}.`);
+
+    const langFile = project.createLangFile(lang);
+
+    const ids: string[] = await langFile.translateMissingStrings(originals);
 }
 

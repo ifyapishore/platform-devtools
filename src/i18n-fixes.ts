@@ -9,7 +9,7 @@ import {loadLangProjectsFileModel} from "./files/lang-projects-file";
 
 const fixSpainFilesOn = true
 
-function main() {
+async function main() {
     const start = new Date().getTime();
     console.info(`platform-devtool: i18n-fixes
 - Correct i18n filenames sp.json => es.json
@@ -21,7 +21,8 @@ function main() {
     const projects = loadLangProjectsFileModel(ENVT.langProjectsFile);
     console.info(`Loaded ${projects.projects.length} i18n projects from the [${ENVT.langProjectsFile}] file:\n`);
 
-    const reports = projects.projects.map((ref) => {
+    const reports: LangProjectReport[] = [];
+    for(const ref of projects.projects) {
         const path = ref.path;
         const project = new LangProject(path)
         const report = new LangProjectReport(project)
@@ -31,12 +32,12 @@ function main() {
             if (fixSpainFilesOn) {
                 fixSpainFiles(project, report);
             }
-            fixMissingLangFiles(project, report);
+            await fixMissingLangFiles(project, report);
         } finally {
             // endTask()
+            reports.push(report);
         }
-        return report;
-    });
+    }
 
     reports.forEach(printReport);
 

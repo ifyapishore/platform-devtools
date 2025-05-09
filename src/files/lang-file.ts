@@ -26,6 +26,13 @@ export class LangFile {
         });
         return ids;
     };
+
+    async translateMissingStrings(originals: Record<string, string>): Promise<string[]> {
+        // Check if the original string is missing in the current language file
+        // translate it using
+        // export async function translateBatch(pairs: [string, string][], targetLang: string): Promise<Record<string, string>>
+        return [];
+    }
 }
 
 export interface LangFileRaw {

@@ -1,11 +1,7 @@
 import fs from "fs";
 import path from "path";
 import {ENVT} from "src/env";
-import {LangFile, loadLangFile} from "src/files/lang-file";
-
-export interface LangFileSnapshot {
-    strings: Record<string, string>
-}
+import {LangFile, LangFileRaw, loadLangFile} from "src/files/lang-file";
 
 export interface LangProjectFile {
     path: string
@@ -65,6 +61,19 @@ export class LangProject {
 
     getLangFile(lang: string) {
         return path.join(this.langDir, `${lang}.json`);
+    }
+
+    createLangFile(langId: string) {
+        if(this.langs[langId]) throw new Error(`Lang file [${langId}] already exists.`);
+        const data: LangFileRaw = { string: {} };
+        return new LangFile(langId, data, this);
+    }
+
+    get originals(): Record<string, string> {
+        const enFile = this.langs["en"];
+        if(!enFile) throw new Error(`Lang file [en] not found.`);
+
+        return Object.fromEntries(enFile.strings.map((s) => [s.id, s.text]))
     }
 }
 
