@@ -1,19 +1,17 @@
-import {checkLangFiles} from "src/checks/checkLangFiles";
-import {checkProjectTranslations} from "src/checks/checkTranslations";
-import {checkTsDeclaration} from "src/checks/checkTsDeclaration";
-import {checkUnknownLanguageFiles} from "src/checks/checkUnknownLanguageFiles";
+import {fixSpainFiles} from "src/fixes/fixSpainFiles";
 import {LangProject} from "src/project";
 import {LangProjectReport} from "src/report";
 import {printEndReport} from "src/util/printEndReport";
 import {printReport} from "src/util/printReport";
 import {ENVT} from "./env";
-import { loadLangProjectsFileModel } from "./files/lang-projects-file";
+import {loadLangProjectsFileModel} from "./files/lang-projects-file";
+
+const fixSpainFilesOn = true
 
 function main() {
     const start = new Date().getTime();
-    console.info(`platform-devtool: i18n-check
-
-Loads i18n projects from the ./src/lang-projects.json file and perform sanity check
+    console.info(`platform-devtool: i18n-fixes
+- Correct i18n filenames sp.json => es.json
 
     `)
     console.info("🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢");
@@ -29,9 +27,9 @@ Loads i18n projects from the ./src/lang-projects.json file and perform sanity ch
         try {
             project.load()
             // checkTsDeclaration(project, report);
-            checkLangFiles(project, report);
-            checkUnknownLanguageFiles(project, report);
-            checkProjectTranslations(project, report);
+            if (fixSpainFilesOn) {
+                fixSpainFiles(project, report);
+            }
         } finally {
             // endTask()
         }

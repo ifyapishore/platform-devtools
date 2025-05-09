@@ -62,6 +62,10 @@ export class LangProject {
             }
         })
     }
+
+    getLangFile(lang: string) {
+        return path.join(this.langDir, `${lang}.json`);
+    }
 }
 
 export interface LangProjectsFile {

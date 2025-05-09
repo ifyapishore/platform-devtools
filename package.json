@@ -10,6 +10,7 @@
   "scripts": {
     "i18n-finder": "ts-node-dev -r tsconfig-paths/register --transpile-only src/i18n-finder.ts",
     "i18n-check": "ts-node-dev -r tsconfig-paths/register --transpile-only src/i18n-check.ts",
+    "i18n-fixes": "ts-node-dev -r tsconfig-paths/register --transpile-only src/i18n-fixes.ts",
     "google-test": "ts-node-dev -r tsconfig-paths/register --transpile-only src/translation-service/google-translate.ts"
   },
   "keywords": [],

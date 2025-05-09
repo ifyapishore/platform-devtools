@@ -4,9 +4,10 @@ export class LangProjectReport {
     readonly project: LangProject
     readonly errors: string[] = []
     readonly warnings: string[] = []
+    readonly fixes: string[] = []
 
     get hasReport(): boolean {
-        return this.errors.length > 0 || this.warnings.length > 0;
+        return this.errors.length > 0 || this.warnings.length > 0 || this.fixes.length > 0;
     }
 
     constructor(project: LangProject) {
@@ -19,5 +20,9 @@ export class LangProjectReport {
 
     error(s: string) {
         this.errors.push(s);
+    }
+
+    fix(s: string) {
+        this.fixes.push(s);
     }
 }
