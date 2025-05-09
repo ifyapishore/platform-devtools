@@ -23,7 +23,7 @@ Loads i18n projects from the ./src/lang-projects.json file and perform sanity ch
         const project = new LangProject(path)
         const report = new LangProjectReport(project)
         try {
-            // project.load()
+            project.load()
             // startTask()
             // checkLangFiles(project, report);
             checkUnknownLanguageFiles(project, report);
