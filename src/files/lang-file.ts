@@ -37,6 +37,7 @@ export class LangFile {
 
         for(const [id, text] of Object.entries(originals)) {
             const res = await translateText(text, this.langId)
+            this.strings.push({id, text: res})
         }
         // Check if the original string is missing in the current language file
         // translate it using
