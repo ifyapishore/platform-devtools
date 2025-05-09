@@ -8,9 +8,6 @@ export function fixSpainFiles(project: LangProject, report: LangProjectReport) {
     const spFile = project.getLangFile("sp");
     const spFileExists = fs.existsSync(spFile);
 
-    // if(project.name.includes("github")) {
-    //     debugger
-    // }
     if (!spFileExists) return
     if (esFileExists) {
         report.error(`Both [${spFile}] and [${esFile}] files exist. Removing [${spFile}] file manually.`);
