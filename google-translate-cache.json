@@ -7,5 +7,2184 @@
   },
   "Conference room ${number}": {
     "es": "Sala de conferencias ${number}"
+  },
+  "User: {user}; Workspace: {workspace}": {
+    "de": "Benutzer: {user}; Arbeitsbereich: {workspace}",
+    "fr": "Utilisateur : {user} ; Espace de travail : {workspace}",
+    "it": "Utente: {utente}; Area di lavoro: {workspace}",
+    "zh": "用户：{user}；工作区：{workspace}"
+  },
+  "Error: ": {
+    "de": "Fehler: ",
+    "fr": "Erreur: ",
+    "it": "Errore:",
+    "zh": "错误： "
+  },
+  " in project ": {
+    "de": "im Projekt",
+    "fr": "en projet",
+    "it": "nel progetto",
+    "zh": "在项目中"
+  },
+  "{app}: open {special}": {
+    "de": "{app}: öffne {special}",
+    "fr": "{app} : ouvrir {special}",
+    "it": "{app}: apri {speciale}",
+    "zh": "{app}：打开{special}"
+  },
+  "open {special} ": {
+    "de": "öffnen {speziell}",
+    "fr": "ouvert {spécial}",
+    "it": "aperto {speciale}",
+    "zh": "打开{特殊}"
+  },
+  "Set ": {
+    "de": "Satz ",
+    "fr": "Ensemble ",
+    "it": "Impostato ",
+    "zh": "放 "
+  },
+  " to ": {
+    "de": " Zu ",
+    "fr": " à ",
+    "it": " A ",
+    "zh": " 到 "
+  },
+  "open ": {
+    "de": "offen ",
+    "fr": "ouvrir ",
+    "it": "aprire ",
+    "zh": "打开 "
+  },
+  "Workbench: ": {
+    "de": "Werkbank:",
+    "fr": "Établi :",
+    "it": "Banco da lavoro:",
+    "zh": "工作台："
+  },
+  "Onboarding Channel": {
+    "de": "Onboarding-Kanal",
+    "fr": "Canal d'intégration",
+    "it": "Canale di onboarding",
+    "zh": "入职渠道"
+  },
+  "Onboarding Channels": {
+    "de": "Onboarding-Kanäle",
+    "fr": "Canaux d'intégration",
+    "it": "Canali di onboarding",
+    "zh": "入职渠道"
+  },
+  "Workspace id": {
+    "de": "Arbeitsbereichs-ID",
+    "fr": "Identifiant de l'espace de travail",
+    "it": "ID dell'area di lavoro",
+    "zh": "工作区 ID"
+  },
+  "Workspace name": {
+    "de": "Name des Arbeitsbereichs",
+    "fr": "Nom de l'espace de travail",
+    "it": "Nome dell'area di lavoro",
+    "zh": "工作区名称"
+  },
+  "Workspace url": {
+    "de": "Arbeitsbereich-URL",
+    "fr": "URL de l'espace de travail",
+    "it": "URL dell'area di lavoro",
+    "zh": "工作区网址"
+  },
+  "Account": {
+    "de": "Konto",
+    "fr": "Compte",
+    "it": "Account",
+    "zh": "帐户"
+  },
+  "User name": {
+    "de": "Benutzername",
+    "fr": "Nom d'utilisateur",
+    "it": "Nome utente",
+    "zh": "用户名"
+  },
+  "Disable AI replies": {
+    "de": "KI-Antworten deaktivieren",
+    "fr": "Désactiver les réponses de l'IA",
+    "it": "Disabilita le risposte dell'IA",
+    "zh": "禁用AI回复"
+  },
+  "Show AI replies": {
+    "de": "KI-Antworten anzeigen",
+    "fr": "Afficher les réponses de l'IA",
+    "it": "Mostra le risposte dell'IA",
+    "zh": "显示AI回复"
+  },
+  "ID": {
+    "es": "IDENTIFICACIÓN"
+  },
+  "Code": {
+    "es": "Código"
+  },
+  "Number": {
+    "es": "Número"
+  },
+  "Category": {
+    "es": "Categoría"
+  },
+  "Collaborative document": {
+    "es": "Documento colaborativo"
+  },
+  "Controlled document": {
+    "es": "Documento controlado"
+  },
+  "Requests": {
+    "es": "Solicitudes"
+  },
+  "Effective date": {
+    "es": "Fecha de entrada en vigor"
+  },
+  "Planned effective date": {
+    "es": "Fecha de entrada en vigor prevista"
+  },
+  "Rang": {
+    "es": "Sonó"
+  },
+  "Request": {
+    "es": "Pedido"
+  },
+  "Document review request": {
+    "es": "Solicitud de revisión de documentos"
+  },
+  "Document approval request": {
+    "es": "Solicitud de aprobación de documento"
+  },
+  "Controlled status": {
+    "es": "Estado controlado"
+  },
+  "Categories": {
+    "es": "Categorías"
+  },
+  "Guidance": {
+    "es": "Guía"
+  },
+  "Required": {
+    "es": "Requerido"
+  },
+  "Description": {
+    "es": "Descripción"
+  },
+  "Major": {
+    "es": "Importante"
+  },
+  "Minor": {
+    "es": "Menor"
+  },
+  "Patch": {
+    "es": "Parche"
+  },
+  "Validation workflow": {
+    "es": "Flujo de trabajo de validación"
+  },
+  "Creator": {
+    "es": "Creador"
+  },
+  "Change document author": {
+    "es": "Cambiar el autor del documento"
+  },
+  "Transfer authorship of the": {
+    "es": "Transferencia de autoría de la"
+  },
+  "to another person.": {
+    "es": "a otra persona."
+  },
+  "You will not be able to edit this document after this action.": {
+    "es": "No podrás editar este documento después de esta acción."
+  },
+  "Select new author": {
+    "es": "Seleccionar nuevo autor"
+  },
+  "Create new document": {
+    "es": "Crear nuevo documento"
+  },
+  "Create new template": {
+    "es": "Crear nueva plantilla"
+  },
+  "Documents": {
+    "es": "Documentos"
+  },
+  "Document": {
+    "es": "Documento"
+  },
+  "Do you want to close this dialog?": {
+    "es": "¿Quieres cerrar este diálogo?"
+  },
+  "All changes will be lost": {
+    "es": "Se perderán todos los cambios."
+  },
+  "Cancel": {
+    "es": "Cancelar",
+    "it": "Cancellare"
+  },
+  "type to start editing...": {
+    "es": "Escribe para empezar a editar..."
+  },
+  "Version": {
+    "es": "Versión"
+  },
+  "Template version": {
+    "es": "Versión de plantilla"
+  },
+  "v{major}.{minor}": {
+    "es": "v{mayor}.{menor}"
+  },
+  "Search document...": {
+    "es": "Buscar documento..."
+  },
+  "Create version for review": {
+    "es": "Crear versión para revisión"
+  },
+  "Approvers": {
+    "es": "Aprobadores"
+  },
+  "Co-Authors": {
+    "es": "Coautores"
+  },
+  "Status": {
+    "es": "Estado"
+  },
+  "Template name": {
+    "es": "Nombre de la plantilla"
+  },
+  "Controlled Documents": {
+    "es": "Documentos controlados"
+  },
+  "My documents": {
+    "es": "Mis documentos"
+  },
+  "Library": {
+    "es": "Biblioteca"
+  },
+  "Labels": {
+    "es": "Etiquetas"
+  },
+  "Author": {
+    "es": "Autor"
+  },
+  "Review": {
+    "es": "Revisar",
+    "cs": "Recenze",
+    "de": "Rezension",
+    "fr": "Revoir",
+    "it": "Revisione",
+    "ja": "レビュー",
+    "zh": "审查"
+  },
+  "Approval": {
+    "es": "Aprobación"
+  },
+  "Reviewer": {
+    "es": "Crítico"
+  },
+  "Approver": {
+    "es": "Aprobador"
+  },
+  "Delete category?": {
+    "es": "¿Borrar categoría?"
+  },
+  "That action cannot be undone": {
+    "es": "Esa acción no se puede deshacer"
+  },
+  "The category cannot be deleted because it is in use": {
+    "es": "La categoría no se puede eliminar porque está en uso"
+  },
+  "Actual": {
+    "es": "Actual"
+  },
+  "Draft": {
+    "es": "Borrador"
+  },
+  "Reviewers": {
+    "es": "Revisores"
+  },
+  "Viewing": {
+    "es": "Visita"
+  },
+  "Editing": {
+    "es": "Edición"
+  },
+  "Comparing": {
+    "es": "Comparando"
+  },
+  "Compare:": {
+    "es": "Comparar:"
+  },
+  "Against:": {
+    "es": "Contra:"
+  },
+  "Comparison mode is not supported.": {
+    "es": "El modo de comparación no es compatible."
+  },
+  "Create Draft": {
+    "es": "Crear borrador"
+  },
+  "Send for approval": {
+    "es": "Enviar para aprobación"
+  },
+  "Send for review": {
+    "es": "Enviar para revisión"
+  },
+  "Complete review": {
+    "es": "Reseña completa"
+  },
+  "Approve": {
+    "es": "Aprobar"
+  },
+  "Reject": {
+    "es": "Rechazar"
+  },
+  "Confirm approval": {
+    "es": "Confirmar aprobación"
+  },
+  "Confirm rejection": {
+    "es": "Confirmar rechazo"
+  },
+  "Type rejection reason...": {
+    "es": "Motivo del rechazo del tipo..."
+  },
+  "Rejection reason": {
+    "es": "Motivo del rechazo"
+  },
+  "Confirm review completion": {
+    "es": "Confirmar la finalización de la revisión"
+  },
+  "Confirm submission for approval": {
+    "es": "Confirmar envío para aprobación"
+  },
+  "Confirm submission for review": {
+    "es": "Confirmar envío para revisión"
+  },
+  "Send your document to approvers": {
+    "es": "Envíe su documento a los aprobadores"
+  },
+  "To prepare your document for approval it should fit few requirements:": {
+    "es": "Para preparar su documento para su aprobación debe cumplir algunos requisitos:"
+  },
+  "has status 'Draft' or 'Reviewed'": {
+    "es": "tiene estado 'Borrador' o 'Revisado'"
+  },
+  "has no unresolved comments": {
+    "es": "no tiene comentarios sin resolver"
+  },
+  "if training is planned, the training has status 'Released'": {
+    "es": "Si se planifica una capacitación, esta tiene el estado 'Liberada'"
+  },
+  "There are no approvals for this version of document": {
+    "es": "No hay aprobaciones para esta versión del documento."
+  },
+  "Current version": {
+    "es": "Versión actual"
+  },
+  "Template": {
+    "es": "Plantilla"
+  },
+  "Templates": {
+    "es": "Plantillas"
+  },
+  "Document code": {
+    "es": "Código del documento"
+  },
+  "Template code": {
+    "es": "Código de plantilla"
+  },
+  "DOC-1": {
+    "es": "DOC-1"
+  },
+  "DOC": {
+    "es": "DOC"
+  },
+  "Documents prefix": {
+    "es": "Prefijo de documentos"
+  },
+  "Create a category": {
+    "es": "Crear una categoría"
+  },
+  "Category \"{title}\" already exists. ": {
+    "es": "La categoría \"{title}\" ya existe."
+  },
+  "Code \"{code}\" already in use. ": {
+    "es": "El código \"{code}\" ya está en uso."
+  },
+  "Maximum allowed attachments": {
+    "es": "Máximo de archivos adjuntos permitidos"
+  },
+  "Resolve": {
+    "es": "Resolver"
+  },
+  "Unresolve": {
+    "es": "Sin resolver"
+  },
+  "Pending": {
+    "es": "Pendiente",
+    "cs": "Čeká na vyřízení",
+    "de": "Ausstehend",
+    "fr": "En attente",
+    "it": "In attesa di",
+    "ja": "保留中",
+    "zh": "待办的"
+  },
+  "Resolved": {
+    "es": "Resuelto"
+  },
+  "Show resolved comments": {
+    "es": "Mostrar comentarios resueltos"
+  },
+  "Ordering": {
+    "es": "Pedidos",
+    "pt": "Encomenda"
+  },
+  "Title": {
+    "es": "Título"
+  },
+  "Effective": {
+    "es": "Eficaz"
+  },
+  "Archived": {
+    "es": "Archivado"
+  },
+  "Deleted": {
+    "es": "Eliminado"
+  },
+  "Abstract": {
+    "es": "Abstracto"
+  },
+  "Obsolete": {
+    "es": "Obsoleto"
+  },
+  "Mark as obsolete": {
+    "es": "Marcar como obsoleto"
+  },
+  "Mark {count, plural, =0 {document} other {documents}} as obsolete": {
+    "es": "Marcar {count, plural, =0 {documento} otros {documentos}} como obsoletos"
+  },
+  "Do you really want to mark the following documents as obsolete: {titles}?": {
+    "es": "¿Realmente desea marcar los siguientes documentos como obsoletos: {titles}?"
+  },
+  "Content": {
+    "es": "Contenido"
+  },
+  "Team": {
+    "es": "Equipo"
+  },
+  "Metadata": {
+    "es": "Metadatos"
+  },
+  "Change control": {
+    "es": "Control de cambios"
+  },
+  "Release": {
+    "es": "Liberar"
+  },
+  "History": {
+    "es": "Historia"
+  },
+  "Modified at": {
+    "es": "Modificado en"
+  },
+  "Modified": {
+    "es": "Modificado"
+  },
+  "Owner": {
+    "es": "Dueño",
+    "pt": "Proprietário"
+  },
+  "Assigneed to": {
+    "es": "Asignado a"
+  },
+  "Unassigned": {
+    "es": "Sin asignar"
+  },
+  "Untitled": {
+    "es": "Intitulado"
+  },
+  "copy": {
+    "es": "Copiar"
+  },
+  "Access Workarea": {
+    "es": "Acceso al área de trabajo"
+  },
+  "Effective library": {
+    "es": "Biblioteca eficaz"
+  },
+  "Working library": {
+    "es": "Biblioteca de trabajo"
+  },
+  "Create draft QMS documents": {
+    "es": "Crear borradores de documentos del SGC"
+  },
+  "Own a QMS document, ask for review, get approval": {
+    "es": "Poseer un documento SGC, solicitar revisión, obtener aprobación"
+  },
+  "Approve documents": {
+    "es": "Aprobar documentos"
+  },
+  "Reassign ownership to another user": {
+    "es": "Reasignar la propiedad a otro usuario"
+  },
+  "Make document effective": {
+    "es": "Hacer que el documento sea efectivo"
+  },
+  "Create draft QMS templates": {
+    "es": "Crear borradores de plantillas de SGC"
+  },
+  "Change Control": {
+    "es": "Control de cambios"
+  },
+  "Review interval": {
+    "es": "Intervalo de revisión"
+  },
+  "Select reviewers": {
+    "es": "Seleccionar revisores"
+  },
+  "Select approvers": {
+    "es": "Seleccionar aprobadores"
+  },
+  "requests you to review the document": {
+    "es": "le solicita que revise el documento"
+  },
+  "requests you to approve the document": {
+    "es": "le solicita que apruebe el documento"
+  },
+  "Parent": {
+    "es": "Padre"
+  },
+  "General Info": {
+    "es": "Información general"
+  },
+  "In progress": {
+    "es": "En curso"
+  },
+  "Edit description": {
+    "es": "Editar descripción"
+  },
+  "Edit guidance": {
+    "es": "Guía de edición"
+  },
+  "New document": {
+    "es": "Nuevo documento"
+  },
+  "New category": {
+    "es": "Nueva categoría"
+  },
+  "New template": {
+    "es": "Nueva plantilla"
+  },
+  "Location": {
+    "es": "Ubicación"
+  },
+  "Info": {
+    "es": "Información"
+  },
+  "Title and description": {
+    "es": "Título y descripción"
+  },
+  "Reason": {
+    "es": "Razón"
+  },
+  "What is this document about? Who will need it and when? ...": {
+    "es": "¿De qué trata este documento? ¿Quién lo necesitará y cuándo?"
+  },
+  "New document creation": {
+    "es": "Creación de un nuevo documento"
+  },
+  "New template creation": {
+    "es": "Creación de nueva plantilla"
+  },
+  "What is this template about? Describe how to properly use it...": {
+    "es": "¿De qué trata esta plantilla? Describe cómo usarla correctamente..."
+  },
+  "Custom": {
+    "es": "Costumbre"
+  },
+  "Specify the reason...": {
+    "es": "Especifica el motivo..."
+  },
+  "Edit document": {
+    "es": "Editar documento"
+  },
+  "Key": {
+    "es": "Llave"
+  },
+  "Comments sequence": {
+    "es": "Secuencia de comentarios"
+  },
+  "Email": {
+    "es": "Correo electrónico"
+  },
+  "Password": {
+    "es": "Contraseña"
+  },
+  "{field} is empty": {
+    "es": "{campo} está vacío"
+  },
+  "Validating credentials...": {
+    "es": "Validando credenciales..."
+  },
+  "General documentation": {
+    "es": "Documentación general"
+  },
+  "Technical documentation": {
+    "es": "Documentación técnica"
+  },
+  "Unsorted templates": {
+    "es": "Plantillas sin clasificar"
+  },
+  "Project": {
+    "es": "Proyecto"
+  },
+  "Projects": {
+    "es": "Proyectos"
+  },
+  "Project space": {
+    "es": "Espacio de proyecto"
+  },
+  "Documents space type": {
+    "es": "Tipo de espacio de documentos"
+  },
+  "Immediately upon approval": {
+    "es": "Inmediatamente después de la aprobación"
+  },
+  "Make effective on": {
+    "es": "Hacer efectivo el"
+  },
+  "Periodic review to be completed within": {
+    "es": "Revisión periódica que se completará dentro de"
+  },
+  "months after its effective date": {
+    "es": "meses después de su fecha de entrada en vigor"
+  },
+  "To be passed within": {
+    "es": "Para ser aprobado dentro de"
+  },
+  "attempts and": {
+    "es": "intentos y"
+  },
+  "days after effective date": {
+    "es": "días después de la fecha de vigencia"
+  },
+  "Index": {
+    "es": "Índice"
+  },
+  "Path": {
+    "es": "Camino"
+  },
+  "Create child document": {
+    "es": "Crear documento secundario"
+  },
+  "Create child template": {
+    "es": "Crear plantilla infantil"
+  },
+  "All": {
+    "es": "Todo",
+    "cs": "Vše",
+    "de": "Alle",
+    "fr": "Tous",
+    "it": "Tutto",
+    "ja": "全て",
+    "zh": "全部"
+  },
+  "Space": {
+    "es": "Espacio"
+  },
+  "Select the parent object for your document": {
+    "es": "Seleccione el objeto principal para su documento"
+  },
+  "This prefix is already in use by": {
+    "es": "Este prefijo ya está en uso por"
+  },
+  "This code is already in use by": {
+    "es": "Este código ya está en uso por"
+  },
+  "Change Code": {
+    "es": "Cambiar código"
+  },
+  "Change Prefix": {
+    "es": "Cambiar prefijo"
+  },
+  "Marking document as deleted": {
+    "es": "Marcar documento como eliminado"
+  },
+  "Marking multiple documents as deleted": {
+    "es": "Marcar varios documentos como eliminados"
+  },
+  "Do you really want to mark the following documents as deleted: {titles}?": {
+    "es": "¿Está seguro de que desea marcar los siguientes documentos como eliminados: {titles}?"
+  },
+  "Archive {count, plural, =0 {document} other {documents}}": {
+    "es": "Archivo {count, plural, =0 {documento} otros {documentos}}"
+  },
+  "Do you really want to archive the following documents: {titles}?": {
+    "es": "¿Realmente desea archivar los siguientes documentos: {titles}?"
+  },
+  "Document in hierarchy": {
+    "es": "Documento en jerarquía"
+  },
+  "This is the first draft version of the document. There's no history yet.": {
+    "es": "Este es el primer borrador del documento. Aún no hay historial."
+  },
+  "Effective document lifecycle": {
+    "es": "Ciclo de vida eficaz de los documentos"
+  },
+  "Reason & Impact": {
+    "es": "Razón e impacto"
+  },
+  "Impact analysis": {
+    "es": "Análisis de impacto"
+  },
+  "Impacted documents": {
+    "es": "Documentos afectados"
+  },
+  "Failed to create document": {
+    "es": "No se pudo crear el documento"
+  },
+  "Failed to create template": {
+    "es": "No se pudo crear la plantilla"
+  },
+  "Please try again": {
+    "es": "Por favor, inténtalo de nuevo"
+  },
+  "Describe what was changed...": {
+    "es": "Describe lo que se cambió..."
+  },
+  "Describe why it was changed...": {
+    "es": "Describe por qué se cambió..."
+  },
+  "Has an impact on...": {
+    "es": "Tiene un impacto en..."
+  },
+  "Add document": {
+    "es": "Agregar documento"
+  },
+  "No documents": {
+    "es": "Sin documentos"
+  },
+  "System template": {
+    "es": "Plantilla del sistema"
+  },
+  "Due days": {
+    "es": "Días de vencimiento"
+  },
+  "Enabled": {
+    "es": "Activado"
+  },
+  "Own": {
+    "es": "Propio"
+  },
+  "Snapshot": {
+    "es": "Instantánea"
+  },
+  "Snapshots": {
+    "es": "Instantáneas"
+  },
+  "Controlled snapshot": {
+    "es": "Instantánea controlada"
+  },
+  "Name": {
+    "es": "Nombre"
+  },
+  "Draft revision": {
+    "es": "Borrador de revisión"
+  },
+  "Draft new version": {
+    "es": "Borrador de nueva versión"
+  },
+  "Restore draft": {
+    "es": "Restaurar borrador"
+  },
+  "Change severity": {
+    "es": "Cambiar la gravedad"
+  },
+  "Reference": {
+    "es": "Referencia"
+  },
+  "Signatories": {
+    "es": "Firmantes"
+  },
+  "Page ": {
+    "es": "Página"
+  },
+  " of ": {
+    "es": " de "
+  },
+  "Created from template: ": {
+    "es": "Creado a partir de la plantilla:"
+  },
+  "View all": {
+    "es": "Ver todo"
+  },
+  "Readonly": {
+    "es": "Sólo lectura"
+  },
+  "New documents space": {
+    "es": "Nuevo espacio para documentos"
+  },
+  "Edit documents space": {
+    "es": "Editar espacio de documentos"
+  },
+  "Describe your space...": {
+    "es": "Describe tu espacio..."
+  },
+  "Members": {
+    "es": "Miembros"
+  },
+  "Role: {role}": {
+    "es": "Rol: {role}"
+  },
+  "Create organisation space": {
+    "es": "Crear espacio de organización"
+  },
+  "Review document": {
+    "es": "Revisar documento"
+  },
+  "Grants users ability to review a document": {
+    "es": "Otorga a los usuarios la capacidad de revisar un documento"
+  },
+  "Approve document": {
+    "es": "Aprobar documento"
+  },
+  "Grants users ability to approve a document": {
+    "es": "Otorga a los usuarios la capacidad de aprobar un documento."
+  },
+  "Archive document": {
+    "es": "Documento de archivo"
+  },
+  "Grants users ability to archive a document": {
+    "es": "Otorga a los usuarios la capacidad de archivar un documento"
+  },
+  "Co-author document": {
+    "es": "Documento de coautoría"
+  },
+  "Grants users ability to co-author a document": {
+    "es": "Otorga a los usuarios la capacidad de ser coautores de un documento."
+  },
+  "Create document": {
+    "es": "Crear documento"
+  },
+  "Grants users ability to create a document": {
+    "es": "Otorga a los usuarios la capacidad de crear un documento."
+  },
+  "Update document owner": {
+    "es": "Actualizar el propietario del documento"
+  },
+  "Grants users ability to update a document owner": {
+    "es": "Otorga a los usuarios la capacidad de actualizar el propietario de un documento."
+  },
+  "Create document category": {
+    "es": "Crear categoría de documento"
+  },
+  "Grants users ability to create a document category": {
+    "es": "Otorga a los usuarios la capacidad de crear una categoría de documento."
+  },
+  "Update document category": {
+    "es": "Actualizar la categoría del documento"
+  },
+  "Grants users ability to update a document category": {
+    "es": "Otorga a los usuarios la capacidad de actualizar una categoría de documento"
+  },
+  "Delete document category": {
+    "es": "Eliminar categoría de documento"
+  },
+  "Grants users ability to delete a document category": {
+    "es": "Otorga a los usuarios la capacidad de eliminar una categoría de documento"
+  },
+  "Extension to manage controlled documents": {
+    "es": "Extensión para gestionar documentos controlados"
+  },
+  "Transfer": {
+    "es": "Transferir"
+  },
+  "Some team members may lose the ability to view or edit this document after this action.": {
+    "es": "Es posible que algunos miembros del equipo pierdan la capacidad de ver o editar este documento después de esta acción."
+  },
+  "Transfer controlled documents": {
+    "es": "Transferencia de documentos controlados"
+  },
+  "Documents to be transferred to the selected space:": {
+    "es": "Documentos a transferir al espacio seleccionado:"
+  },
+  "Create new folder": {
+    "es": "Crear nueva carpeta"
+  },
+  "Rename folder": {
+    "es": "Cambiar el nombre de la carpeta"
+  },
+  "Create child folder": {
+    "es": "Crear carpeta secundaria"
+  },
+  "latest": {
+    "es": "el último"
+  },
+  "The folder cannot be deleted": {
+    "es": "La carpeta no se puede eliminar"
+  },
+  "Please move all child documents to another location before deleting the folder.": {
+    "es": "Mueva todos los documentos secundarios a otra ubicación antes de eliminar la carpeta."
+  },
+  "All document spaces": {
+    "es": "Todos los espacios del documento"
+  },
+  "Show notifications": {
+    "de": "Benachrichtigungen anzeigen",
+    "es": "Mostrar notificaciones",
+    "fr": "Afficher les notifications",
+    "it": "Mostra notifiche",
+    "pt": "Mostrar notificações",
+    "zh": "显示通知"
+  },
+  "Play sound": {
+    "de": "Ton abspielen",
+    "es": "Reproducir sonido",
+    "fr": "Jouer le son",
+    "it": "Riproduci suono",
+    "pt": "Tocar som",
+    "zh": "播放声音"
+  },
+  "Bounce app's icon (mac only)": {
+    "de": "Symbol der Bounce-App (nur Mac)",
+    "es": "Ícono de la aplicación Bounce (solo Mac)",
+    "fr": "Icône de l'application Bounce (Mac uniquement)",
+    "it": "Icona dell'app Bounce (solo Mac)",
+    "pt": "Ícone do aplicativo Bounce (somente Mac)",
+    "zh": "Bounce 应用程序的图标（仅限 Mac）"
+  },
+  "Show a badge on app's icon": {
+    "de": "Ein Badge auf dem App-Symbol anzeigen",
+    "es": "Mostrar una insignia en el ícono de la aplicación",
+    "fr": "Afficher un badge sur l'icône de l'application",
+    "it": "Mostra un badge sull'icona dell'app",
+    "pt": "Mostrar um emblema no ícone do aplicativo",
+    "zh": "在应用程序图标上显示徽章"
+  },
+  "Sound and appearance": {
+    "de": "Klang und Aussehen",
+    "es": "Sonido y apariencia",
+    "fr": "Son et apparence",
+    "it": "Suono e aspetto",
+    "pt": "Som e aparência",
+    "zh": "声音和外观"
+  },
+  "You have got a notification": {
+    "de": "Sie haben eine Benachrichtigung erhalten",
+    "es": "Tienes una notificación",
+    "fr": "Vous avez reçu une notification",
+    "it": "Hai ricevuto una notifica",
+    "pt": "Você recebeu uma notificação",
+    "zh": "您已收到通知"
+  },
+  "You have {count, plural, =1 {# notifcation} other {# notifcations}} total": {
+    "de": "Sie haben insgesamt {Anzahl, Plural, =1 {# Benachrichtigung} weitere {# Benachrichtigungen}}",
+    "es": "Tienes {count, plural, =1 {# notificación} otras {# notificaciones}} en total",
+    "fr": "Vous avez {count, plural, =1 {# notification} autre {# notifications}} au total",
+    "it": "Hai {count, plural, =1 {# notifica} altre {# notifiche}} totali",
+    "pt": "Você tem {count, plural, =1 {# notifcation} outras {# notifcations}} no total",
+    "zh": "您总共有 {count, plural, =1 {# notifcation} 其他 {# notifcations}} 条"
+  },
+  "View mode": {
+    "de": "Ansichtsmodus",
+    "es": "Modo de visualización",
+    "fr": "Mode d'affichage",
+    "it": "Modalità di visualizzazione",
+    "pt": "Modo de visualização",
+    "zh": "查看模式"
+  },
+  "Unified": {
+    "de": "Einheitlich",
+    "es": "Unificado",
+    "fr": "Unifié",
+    "it": "Unificato",
+    "pt": "Unificado",
+    "zh": "统一"
+  },
+  "Split": {
+    "de": "Teilt",
+    "es": "Dividir",
+    "fr": "Diviser",
+    "it": "Diviso",
+    "pt": "Dividir",
+    "zh": "分裂"
+  },
+  "Viewed": {
+    "de": "Angesehen",
+    "es": "Visto",
+    "fr": "Vu",
+    "it": "Visualizzato",
+    "pt": "Visualizado",
+    "zh": "已浏览"
+  },
+  "Show diff": {
+    "de": "Unterschiede anzeigen",
+    "es": "Mostrar diferencia",
+    "fr": "Afficher la différence",
+    "it": "Mostra diff",
+    "pt": "Mostrar diferença",
+    "zh": "显示差异"
+  },
+  "File diff has no changes": {
+    "de": "Datei-Diff weist keine Änderungen auf",
+    "es": "El archivo diff no tiene cambios",
+    "fr": "Le fichier diff n'a pas changé",
+    "it": "Il file diff non ha subito modifiche",
+    "pt": "O arquivo diff não sofreu alterações",
+    "zh": "文件差异没有变化"
+  },
+  "Large diffs are not rendered by default.": {
+    "de": "Große Unterschiede werden standardmäßig nicht gerendert.",
+    "es": "Las diferencias grandes no se representan de forma predeterminada.",
+    "fr": "Les grandes différences ne sont pas rendues par défaut.",
+    "it": "Per impostazione predefinita, le differenze di grandi dimensioni non vengono visualizzate.",
+    "pt": "Grandes diferenças não são renderizadas por padrão.",
+    "zh": "默认情况下不会呈现较大的差异。"
+  },
+  "File is too large to be displayed.": {
+    "de": "Die Datei ist zu groß, um angezeigt zu werden.",
+    "es": "El archivo es demasiado grande para mostrarse.",
+    "fr": "Le fichier est trop volumineux pour être affiché.",
+    "it": "Il file è troppo grande per essere visualizzato.",
+    "pt": "O arquivo é muito grande para ser exibido.",
+    "zh": "文件太大，无法显示。"
+  },
+  "File was renamed without changes.": {
+    "de": "Die Datei wurde ohne Änderungen umbenannt.",
+    "es": "El archivo fue renombrado sin cambios.",
+    "fr": "Le fichier a été renommé sans modifications.",
+    "it": "Il file è stato rinominato senza modifiche.",
+    "pt": "O arquivo foi renomeado sem alterações.",
+    "zh": "文件已重命名，但没有任何变化。"
+  },
+  "File was deleted.": {
+    "de": "Datei wurde gelöscht.",
+    "es": "El archivo fue eliminado.",
+    "fr": "Le fichier a été supprimé.",
+    "it": "Il file è stato eliminato.",
+    "pt": "O arquivo foi excluído.",
+    "zh": "文件已被删除。"
+  },
+  "Camera": {
+    "it": "Telecamera"
+  },
+  "Microphone": {
+    "it": "Microfono"
+  },
+  "Speaker": {
+    "it": "Oratore"
+  },
+  "Default camera": {
+    "it": "Fotocamera predefinita"
+  },
+  "Default microphone": {
+    "it": "Microfono predefinito"
+  },
+  "Default speaker": {
+    "it": "Altoparlante predefinito"
+  },
+  "No camera": {
+    "it": "Nessuna telecamera"
+  },
+  "Turn on camera": {
+    "it": "Accendi la telecamera"
+  },
+  "Turn off camera": {
+    "it": "Spegni la fotocamera"
+  },
+  "Turn on microphone": {
+    "it": "Accendi il microfono"
+  },
+  "Turn off microphone": {
+    "it": "Disattiva il microfono"
+  },
+  "On": {
+    "it": "SU"
+  },
+  "Off": {
+    "it": "Spento"
+  },
+  "Create workspace": {
+    "de": "Arbeitsbereich erstellen",
+    "it": "Crea spazio di lavoro"
+  },
+  "Last name": {
+    "de": "Nachname",
+    "it": "Cognome"
+  },
+  "First name": {
+    "de": "Vorname",
+    "it": "Nome di battesimo"
+  },
+  "Fill in your profile": {
+    "de": "Füllen Sie Ihr Profil aus",
+    "it": "Compila il tuo profilo"
+  },
+  "Set up your password": {
+    "de": "Richten Sie Ihr Passwort ein",
+    "it": "Imposta la tua password"
+  },
+  "Next": {
+    "de": "Nächste",
+    "it": "Prossimo"
+  },
+  "Skip": {
+    "de": "Überspringen",
+    "it": "Saltare"
+  },
+  "Sign up completed": {
+    "de": "Anmeldung abgeschlossen",
+    "it": "Iscrizione completata"
+  },
+  "Start using Huly": {
+    "de": "Jetzt Huly nutzen",
+    "it": "Inizia a usare Huly"
+  },
+  "Product": {
+    "es": "Producto"
+  },
+  "Products": {
+    "es": "Productos"
+  },
+  "Add description...": {
+    "es": "Añadir descripción..."
+  },
+  "Product version": {
+    "es": "Versión del producto"
+  },
+  "Product versions": {
+    "es": "Versiones del producto"
+  },
+  "Parent version": {
+    "es": "Versión para padres"
+  },
+  "State": {
+    "es": "Estado"
+  },
+  "Search product...": {
+    "es": "Buscar producto..."
+  },
+  "Create product": {
+    "es": "Crear producto"
+  },
+  "Create product version": {
+    "es": "Crear una versión del producto"
+  },
+  "No parent version": {
+    "es": "No hay versión para padres"
+  },
+  "No product versions": {
+    "es": "No hay versiones del producto"
+  },
+  "Codename": {
+    "es": "Nombre en clave"
+  },
+  "Active": {
+    "es": "Activo",
+    "cs": "Aktivní",
+    "de": "Aktiv",
+    "fr": "Actif",
+    "it": "Attivo",
+    "ja": "アクティブ",
+    "zh": "积极的"
+  },
+  "Released": {
+    "es": "Liberado"
+  },
+  "Icon": {
+    "es": "Icono"
+  },
+  "Color": {
+    "es": "Color"
+  },
+  "Private": {
+    "es": "Privado"
+  },
+  "Public": {
+    "es": "Público"
+  },
+  "Update product": {
+    "es": "Actualizar producto"
+  },
+  "Grants users ability to update a product": {
+    "es": "Otorga a los usuarios la capacidad de actualizar un producto."
+  },
+  "Extension to manage products": {
+    "es": "Extensión para gestionar productos"
+  },
+  "Answer": {
+    "es": "Respuesta",
+    "pt": "Responder"
+  },
+  "Answers": {
+    "es": "Respuestas",
+    "pt": "Respostas"
+  },
+  "Assessment": {
+    "es": "Evaluación",
+    "pt": "Avaliação"
+  },
+  "Assessments": {
+    "es": "Evaluaciones",
+    "pt": "Avaliações"
+  },
+  "Correct Answer": {
+    "es": "Respuesta correcta",
+    "pt": "Resposta correta"
+  },
+  "Correct Answers": {
+    "es": "Respuestas correctas",
+    "pt": "Respostas corretas"
+  },
+  "Duplicate": {
+    "es": "Duplicado",
+    "pt": "Duplicado"
+  },
+  "Failed": {
+    "es": "Fallido",
+    "pt": "Fracassado"
+  },
+  "Select multiple": {
+    "es": "Seleccione varios",
+    "pt": "Selecione vários"
+  },
+  "Multiple selection": {
+    "es": "Selección múltiple",
+    "pt": "Seleção múltipla"
+  },
+  "Multiple selection (not rated)": {
+    "es": "Selección múltiple (sin calificación)",
+    "pt": "Seleção múltipla (não classificado)"
+  },
+  "No Questions": {
+    "es": "Sin preguntas",
+    "pt": "Sem perguntas"
+  },
+  "Option": {
+    "es": "Opción",
+    "pt": "Opção"
+  },
+  "Options": {
+    "es": "Opciones",
+    "pt": "Opções",
+    "cs": "Možnosti",
+    "de": "Optionen",
+    "fr": "Options",
+    "it": "Opzioni",
+    "ja": "オプション",
+    "zh": "选项"
+  },
+  "Put in the correct order": {
+    "es": "Poner en el orden correcto",
+    "pt": "Coloque na ordem correta"
+  },
+  "Ordering (not rated)": {
+    "es": "Pedidos (sin calificación)",
+    "pt": "Encomenda (não classificado)"
+  },
+  "Passed": {
+    "es": "Aprobado",
+    "pt": "Aprovado"
+  },
+  "Question": {
+    "es": "Pregunta",
+    "pt": "Pergunta"
+  },
+  "Questions": {
+    "es": "Preguntas",
+    "pt": "Questões"
+  },
+  "Rank": {
+    "es": "Rango",
+    "pt": "Classificação"
+  },
+  "Released By": {
+    "es": "Publicado por",
+    "pt": "Lançado por"
+  },
+  "Released Date": {
+    "es": "Fecha de lanzamiento",
+    "pt": "Data de lançamento"
+  },
+  "Score": {
+    "es": "Puntaje",
+    "pt": "Pontuação"
+  },
+  "Select": {
+    "es": "Seleccionar",
+    "pt": "Selecione"
+  },
+  "Single selection": {
+    "es": "Selección única",
+    "pt": "Seleção única"
+  },
+  "Single selection (not rated)": {
+    "es": "Selección única (sin calificación)",
+    "pt": "Seleção única (não classificada)"
+  },
+  "Percentage": {
+    "es": "Porcentaje",
+    "pt": "Percentagem"
+  },
+  "Canceled": {
+    "es": "Cancelado"
+  },
+  "Change owner": {
+    "es": "Cambiar de propietario"
+  },
+  "Completed": {
+    "es": "Terminado"
+  },
+  "Create new version": {
+    "es": "Crear nueva versión"
+  },
+  "Not selected": {
+    "es": "No seleccionado"
+  },
+  "Change owner of a sent training request owned by someone else": {
+    "es": "Cambiar el propietario de una solicitud de capacitación enviada que pertenece a otra persona"
+  },
+  "Grants users ability to change owner of a training request owned by any user": {
+    "es": "Otorga a los usuarios la capacidad de cambiar el propietario de una solicitud de capacitación propiedad de cualquier usuario"
+  },
+  "Change owner of a training owned by someone else": {
+    "es": "Cambiar el propietario de una formación propiedad de otra persona"
+  },
+  "Grants users ability to change owner of a training owned by someone else": {
+    "es": "Otorga a los usuarios la capacidad de cambiar el propietario de una capacitación propiedad de otra persona"
+  },
+  "Assign a training owned by someone else": {
+    "es": "Asignar una formación propiedad de otra persona"
+  },
+  "Grants users ability to assign (create request on) a training owned by someone else": {
+    "es": "Otorga a los usuarios la capacidad de asignar (crear una solicitud) una capacitación propiedad de otra persona"
+  },
+  "Create training": {
+    "es": "Crear formación"
+  },
+  "Grants users ability to create a new training": {
+    "es": "Otorga a los usuarios la capacidad de crear una nueva capacitación."
+  },
+  "View sent training request owned by someone else": {
+    "es": "Ver solicitud de capacitación enviada propiedad de otra persona"
+  },
+  "Grants users ability to view a sent training request owned by someone else": {
+    "es": "Otorga a los usuarios la capacidad de ver una solicitud de capacitación enviada que es propiedad de otra persona"
+  },
+  "View results of a sent training request owned by someone else": {
+    "es": "Ver los resultados de una solicitud de capacitación enviada por otra persona"
+  },
+  "Grants users ability to view results of a sent training owned by someone else": {
+    "es": "Otorga a los usuarios la capacidad de ver los resultados de una capacitación enviada por otra persona"
+  },
+  "View training owned by someone else": {
+    "es": "Ver la formación propiedad de otra persona"
+  },
+  "Grants users ability to view training owned by someone else": {
+    "es": "Otorga a los usuarios la capacidad de ver la capacitación propiedad de otra persona"
+  },
+  "View questions of a training owned by someone else": {
+    "es": "Ver preguntas de una formación propiedad de otra persona"
+  },
+  "Grants users ability to view questions of a training owned by someone else": {
+    "es": "Otorga a los usuarios la capacidad de ver las preguntas de una capacitación propiedad de otra persona"
+  },
+  "Revision": {
+    "es": "Revisión"
+  },
+  "sent you a training request": {
+    "es": "Te envié una solicitud de capacitación"
+  },
+  "Training": {
+    "es": "Capacitación"
+  },
+  "Trainings": {
+    "es": "Entrenamientos"
+  },
+  "Attempt": {
+    "es": "Intentar"
+  },
+  "Assessments Passed": {
+    "es": "Evaluaciones aprobadas"
+  },
+  "Assessments Total": {
+    "es": "Evaluaciones Total"
+  },
+  "My current draft": {
+    "es": "Mi borrador actual"
+  },
+  "My latest result": {
+    "es": "Mi último resultado"
+  },
+  "Attempts": {
+    "es": "Intentos"
+  },
+  "Submit": {
+    "es": "Entregar"
+  },
+  "Submitted By": {
+    "es": "Enviado por"
+  },
+  "Submitted Date": {
+    "es": "Fecha de envío"
+  },
+  "Training created": {
+    "es": "Formación creada"
+  },
+  "Overview": {
+    "es": "Descripción general"
+  },
+  "Passing Score": {
+    "es": "Puntuación de aprobación"
+  },
+  "Prefix": {
+    "es": "Prefijo"
+  },
+  "Release Date": {
+    "es": "Fecha de lanzamiento"
+  },
+  "Training Request": {
+    "es": "Solicitud de capacitación"
+  },
+  "Assign request": {
+    "es": "Solicitud de asignación"
+  },
+  "Attempt {index}/{total}": {
+    "es": "Intento {índice}/{total}"
+  },
+  "Cancel request": {
+    "es": "Cancelar solicitud"
+  },
+  "Canceled By": {
+    "es": "Cancelado por"
+  },
+  "Canceled Date": {
+    "es": "Fecha de cancelación"
+  },
+  "Completion": {
+    "es": "Terminación"
+  },
+  "Due Date": {
+    "es": "Dos citas"
+  },
+  "Max Attempts": {
+    "es": "Intentos máximos"
+  },
+  "No Due Date": {
+    "es": "Sin fecha de vencimiento"
+  },
+  "Results": {
+    "es": "Resultados"
+  },
+  "Roles": {
+    "es": "Roles"
+  },
+  "{count, plural, one {# role} other {# roles}}": {
+    "es": "{count, plural, uno {# rol} otros {# roles}}"
+  },
+  "Trainee": {
+    "es": "Aprendiz"
+  },
+  "Trainees": {
+    "es": "Aprendices"
+  },
+  "Retry": {
+    "es": "Rever",
+    "it": "Riprova"
+  },
+  "Start Training": {
+    "es": "Iniciar entrenamiento"
+  },
+  "Take training": {
+    "es": "Tomar entrenamiento"
+  },
+  "All Trainings": {
+    "es": "Todos los entrenamientos"
+  },
+  "Drafts": {
+    "es": "Damas"
+  },
+  "My requests": {
+    "es": "Mis peticiones"
+  },
+  "My results": {
+    "es": "Mis resultados"
+  },
+  "My trainings": {
+    "es": "Mis entrenamientos"
+  },
+  "Trainees' requests": {
+    "es": "Solicitudes de los aprendices"
+  },
+  "Trainees' results": {
+    "es": "Resultados de los alumnos"
+  },
+  "Extension to manage trainings": {
+    "es": "Extensión para gestionar formaciones"
+  },
+  "Upload Files": {
+    "it": "Carica file"
+  },
+  "Upload Folders": {
+    "it": "Carica cartelle"
+  },
+  "Uploading {files, plural, =1 {# file} other {# files}} to": {
+    "it": "Caricamento di {file, plurale, =1 {# file} altri {# file}} su"
+  },
+  "Github": {
+    "cs": "Github",
+    "de": "Github",
+    "fr": "Github",
+    "it": "Github",
+    "ja": "ギットハブ",
+    "zh": "Github"
+  },
+  "Github integration": {
+    "cs": "Integrace s Githubem",
+    "de": "Github-Integration",
+    "fr": "Intégration Github",
+    "it": "Integrazione con Github",
+    "ja": "Github統合",
+    "zh": "Github 集成"
+  },
+  "Configure": {
+    "cs": "Konfigurovat",
+    "de": "Konfigurieren",
+    "fr": "Configure",
+    "it": "Configurare",
+    "ja": "設定",
+    "zh": "配置"
+  },
+  "Map repository to project": {
+    "cs": "Mapování repozitáře na projekt",
+    "de": "Ordnen Sie das Repository dem Projekt zu",
+    "fr": "Cartographier le référentiel vers le projet",
+    "it": "Mappe del repository per il progetto",
+    "ja": "リポジトリをプロジェクトにマッピングする",
+    "zh": "将存储库映射到项目"
+  },
+  "Configure {title} GitHub App": {
+    "cs": "Konfigurace aplikace {title} na GitHubu",
+    "de": "Konfigurieren Sie die {title} GitHub-App",
+    "fr": "Configurer l'application GitHub {title}",
+    "it": "Configura l'app GitHub {title}",
+    "ja": "{title} GitHub アプリを構成する",
+    "zh": "配置 {title} GitHub 应用"
+  },
+  "<p>There is no {title} GitHub App associated with this workspace. You must first install the {title} GitHub App and grant it access to your repositories.</p><p>If you are installing it for a GitHub organization, you need to have the appropriate permissions, or you should ask your colleagues to install it.</p><p>If you plan like to switch use of integration to another {title} workspace, please uninstall it first.</p>": {
+    "cs": "<p>K tomuto pracovnímu prostoru není přidružena žádná aplikace GitHub {title}. Nejprve musíte aplikaci GitHub {title} nainstalovat a udělit jí přístup k vašim repozitářům.</p><p>Pokud ji instalujete pro organizaci GitHub, musíte mít příslušná oprávnění nebo byste měli požádat o instalaci své kolegy.</p><p>Pokud plánujete přepnout používání integrace do jiného pracovního prostoru {title}, nejprve ji prosím odinstalujte.</p>",
+    "de": "<p>Diesem Arbeitsbereich ist keine {title}-GitHub-App zugeordnet. Sie müssen zuerst die {title}-GitHub-App installieren und ihr Zugriff auf Ihre Repositories gewähren.</p><p>Wenn Sie die App für eine GitHub-Organisation installieren, benötigen Sie die entsprechenden Berechtigungen oder bitten Sie Ihre Kollegen, die App zu installieren.</p><p>Wenn Sie die Integration auf einen anderen {title}-Arbeitsbereich übertragen möchten, deinstallieren Sie sie bitte zuerst.</p>",
+    "fr": "<p>Aucune application GitHub {title} n'est associée à cet espace de travail. Vous devez d'abord installer l'application GitHub {title} et lui accorder l'accès à vos dépôts.</p><p>Si vous l'installez pour une organisation GitHub, vous devez disposer des autorisations appropriées ou demander à vos collègues de l'installer.</p><p>Si vous souhaitez transférer l'intégration vers un autre espace de travail {title}, veuillez d'abord la désinstaller.</p>",
+    "it": "<p>Non esiste un'app GitHub {title} associata a questo spazio di lavoro. Devi prima installare l'app GitHub {title} e concederle l'accesso ai tuoi repository.</p><p>Se la stai installando per un'organizzazione GitHub, devi disporre delle autorizzazioni appropriate oppure dovresti chiedere ai tuoi colleghi di installarla.</p><p>Se intendi trasferire l'utilizzo dell'integrazione a un altro spazio di lavoro {title}, disinstallalo prima.</p>",
+    "ja": "<p>このワークスペースには {title} GitHub アプリが関連付けられていません。まず {title} GitHub アプリをインストールし、リポジトリへのアクセスを許可する必要があります。</p><p>GitHub 組織用にインストールする場合は、適切な権限を持っているか、同僚にインストールを依頼してください。</p><p>統合の使用を別の {title} ワークスペースに切り替える予定の場合は、まずアンインストールしてください。</p>",
+    "zh": "<p>此工作区没有与 {title} GitHub 应用关联的应用程序。您必须先安装 {title} GitHub 应用并授予其访问您仓库的权限。</p><p>如果您要为 GitHub 组织安装它，则需要拥有适当的权限，或者您应该请您的同事安装它。</p><p>如果您计划将集成的使用切换到另一个 {title} 工作区，请先将其卸载。</p>"
+  },
+  "Install Github App": {
+    "cs": "Nainstalujte si aplikaci Github",
+    "de": "Installieren Sie die Github-App",
+    "fr": "Installer l'application Github",
+    "it": "Installa l'app Github",
+    "ja": "Githubアプリをインストールする",
+    "zh": "安装 Github App"
+  },
+  "Waiting for integration service": {
+    "cs": "Čekání na integrační službu",
+    "de": "Warten auf Integrationsdienst",
+    "fr": "En attente du service d'intégration",
+    "it": "In attesa del servizio di integrazione",
+    "ja": "統合サービスを待っています",
+    "zh": "等待集成服务"
+  },
+  "Repository": {
+    "cs": "Úložiště",
+    "de": "Archiv",
+    "fr": "Dépôt",
+    "it": "Deposito",
+    "ja": "リポジトリ",
+    "zh": "存储库"
+  },
+  "Repository not selected": {
+    "cs": "Úložiště nebylo vybráno",
+    "de": "Repository nicht ausgewählt",
+    "fr": "Dépôt non sélectionné",
+    "it": "Repository non selezionato",
+    "ja": "リポジトリが選択されていません",
+    "zh": "未选择存储库"
+  },
+  "in": {
+    "cs": "v",
+    "de": "In",
+    "fr": "dans",
+    "it": "In",
+    "ja": "で",
+    "zh": "在"
+  },
+  " in ": {
+    "cs": "v",
+    "de": " In ",
+    "fr": " dans ",
+    "it": " In ",
+    "ja": " で ",
+    "zh": " 在 "
+  },
+  "Assign repository": {
+    "cs": "Přiřadit úložiště",
+    "de": "Repository zuweisen",
+    "fr": "Attribuer un référentiel",
+    "it": "Assegna repository",
+    "ja": "リポジトリの割り当て",
+    "zh": "分配存储库"
+  },
+  "Create Issue without GitHub": {
+    "cs": "Vytvořit problém bez GitHubu",
+    "de": "Problem ohne GitHub erstellen",
+    "fr": "Créer un problème sans GitHub",
+    "it": "Crea un problema senza GitHub",
+    "ja": "GitHub を使わずに問題を作成する",
+    "zh": "无需 GitHub 即可创建问题"
+  },
+  "Create Issue on ": {
+    "cs": "Vytvořit problém dne",
+    "de": "Problem erstellen am",
+    "fr": "Créer un problème sur",
+    "it": "Crea problema su",
+    "ja": "問題を作成",
+    "zh": "创建问题"
+  },
+  "Pull request": {
+    "cs": "Žádost o stažení",
+    "de": "Pull-Anfrage",
+    "fr": "Demande d'extraction",
+    "it": "Richiesta di pull",
+    "ja": "プルリクエスト",
+    "zh": "拉取请求"
+  },
+  "Pull requests": {
+    "cs": "Žádosti o změny (pull requests)",
+    "de": "Pull-Anfragen",
+    "fr": "Demandes d'extraction",
+    "it": "Richieste di pull",
+    "ja": "プルリクエスト",
+    "zh": "拉取请求"
+  },
+  "Changed files ({files})": {
+    "cs": "Změněné soubory ({files})",
+    "de": "Geänderte Dateien ({files})",
+    "fr": "Fichiers modifiés ({files})",
+    "it": "File modificati ({files})",
+    "ja": "変更されたファイル ({files})",
+    "zh": "已更改的文件（{files}）"
+  },
+  "Reviewed files ({files})": {
+    "cs": "Zkontrolované soubory ({files})",
+    "de": "Überprüfte Dateien ({files})",
+    "fr": "Fichiers examinés ({files})",
+    "it": "File revisionati ({files})",
+    "ja": "レビュー済みファイル ({files})",
+    "zh": "已审阅文件（{files}）"
+  },
+  "Closed": {
+    "cs": "ZAVŘENO",
+    "de": "Geschlossen",
+    "fr": "Fermé",
+    "it": "Chiuso",
+    "ja": "閉鎖",
+    "zh": "关闭"
+  },
+  "File": {
+    "cs": "Soubor",
+    "de": "Datei",
+    "fr": "Déposer",
+    "it": "File",
+    "ja": "ファイル",
+    "zh": "文件"
+  },
+  "Commit": {
+    "cs": "Spáchat",
+    "de": "Begehen",
+    "fr": "Commettre",
+    "it": "Impegnarsi",
+    "ja": "専念",
+    "zh": "犯罪"
+  },
+  "Draft PR": {
+    "cs": "Návrh žádosti o podporu",
+    "de": "PR-Entwurf",
+    "fr": "Projet de RP",
+    "it": "Bozza di PR",
+    "ja": "ドラフトPR",
+    "zh": "公关草稿"
+  },
+  "Merged At": {
+    "cs": "Sloučeno v",
+    "de": "Zusammengeführt am",
+    "fr": "Fusionné à",
+    "it": "Unito a",
+    "ja": "合併日時",
+    "zh": "合并于"
+  },
+  "Closed At": {
+    "cs": "Zavřeno v",
+    "de": "Geschlossen um",
+    "fr": "Fermé à",
+    "it": "Chiuso alle",
+    "ja": "閉店時間",
+    "zh": "结束时间"
+  },
+  "Merge commit SHA": {
+    "cs": "Sloučení commitu SHA",
+    "de": "Merge-Commit-SHA",
+    "fr": "Fusionner le commit SHA",
+    "it": "Unisci commit SHA",
+    "ja": "マージコミット SHA",
+    "zh": "合并提交 SHA"
+  },
+  "Bi-directional synchronization with Github": {
+    "cs": "Obousměrná synchronizace s Githubem",
+    "de": "Bidirektionale Synchronisierung mit Github",
+    "fr": "Synchronisation bidirectionnelle avec Github",
+    "it": "Sincronizzazione bidirezionale con Github",
+    "ja": "Githubとの双方向同期",
+    "zh": "与 Github 双向同步"
+  },
+  "Authorize {title} GitHub App": {
+    "cs": "Autorizovat aplikaci {title} na GitHubu",
+    "de": "{title} GitHub-App autorisieren",
+    "fr": "Autoriser l'application GitHub {title}",
+    "it": "Autorizza l'app GitHub {title}",
+    "ja": "{title} GitHub アプリを承認する",
+    "zh": "授权 {title} GitHub 应用"
+  },
+  "Re-authorize {title} GitHub App": {
+    "cs": "Znovu autorizovat aplikaci {title} na GitHubu",
+    "de": "{title} GitHub-App erneut autorisieren",
+    "fr": "Réautoriser l'application GitHub {title}",
+    "it": "Riautorizza l'app GitHub {title}",
+    "ja": "{title} GitHub アプリを再認証する",
+    "zh": "重新授权 {title} GitHub 应用"
+  },
+  "You need to authorize the {title} GitHub App to access your GitHub account.": {
+    "cs": "Pro přístup k vašemu účtu GitHub je nutné autorizovat aplikaci {title} GitHub.",
+    "de": "Sie müssen der {title} GitHub-App den Zugriff auf Ihr GitHub-Konto autorisieren.",
+    "fr": "Vous devez autoriser l'application GitHub {title} à accéder à votre compte GitHub.",
+    "it": "Devi autorizzare l'app GitHub {title} ad accedere al tuo account GitHub.",
+    "ja": "GitHub アカウントにアクセスするには、{title} GitHub アプリを承認する必要があります。",
+    "zh": "您需要授权{title} GitHub App访问您的GitHub帐户。"
+  },
+  "Please connect repository to project to start using integration": {
+    "cs": "Pro zahájení integrace prosím připojte repozitář k projektu.",
+    "de": "Bitte verbinden Sie das Repository mit dem Projekt, um die Integration zu nutzen",
+    "fr": "Veuillez connecter le référentiel au projet pour commencer à utiliser l'intégration",
+    "it": "Si prega di collegare il repository al progetto per iniziare a utilizzare l'integrazione",
+    "ja": "統合の使用を開始するには、リポジトリをプロジェクトに接続してください。",
+    "zh": "请将存储库连接到项目以开始使用集成"
+  },
+  "Connect repository (available {available})": {
+    "cs": "Připojit repozitář (dostupné {dostupné})",
+    "de": "Repository verbinden (verfügbar {available})",
+    "fr": "Connecter le référentiel (disponible {available})",
+    "it": "Connetti repository (disponibile {disponibile})",
+    "ja": "リポジトリに接続（利用可能{available}）",
+    "zh": "连接存储库（可用 {available}）"
+  },
+  "Enable": {
+    "cs": "Umožnit",
+    "de": "Aktivieren",
+    "fr": "Activer",
+    "it": "Abilitare",
+    "ja": "有効にする",
+    "zh": "使能够"
+  },
+  "Disable": {
+    "cs": "Zakázat",
+    "de": "Deaktivieren",
+    "fr": "Désactiver",
+    "it": "Disabilitare",
+    "ja": "無効にする",
+    "zh": "禁用"
+  },
+  "Disabled": {
+    "cs": "Zakázáno",
+    "de": "Deaktiviert",
+    "fr": "Désactivé",
+    "it": "Disabili",
+    "ja": "無効",
+    "zh": "已禁用"
+  },
+  "- repositories ({of}/{sync})": {
+    "cs": "- repozitáře ({of}/{sync})",
+    "de": "- Repositories ({von}/{sync})",
+    "fr": "- dépôts ({de}/{synchronisation})",
+    "it": "- repository ({di}/{sincronizzazione})",
+    "ja": "- リポジトリ ({of}/{sync})",
+    "zh": "- 存储库（{of}/{sync}）"
+  },
+  "Github Projects (new)": {
+    "cs": "Projekty na Githubu (nové)",
+    "de": "Github-Projekte (neu)",
+    "fr": "Projets Github (nouveau)",
+    "it": "Progetti Github (nuovi)",
+    "ja": "Github プロジェクト（新規）",
+    "zh": "Github 项目（新）"
+  },
+  "as {login}": {
+    "cs": "jako {login}",
+    "de": "als {login}",
+    "fr": "en tant que {login}",
+    "it": "come {accedi}",
+    "ja": "{ログイン}として",
+    "zh": "以 {login} 身份"
+  },
+  "GitHub App Integrations": {
+    "cs": "Integrace aplikací GitHub",
+    "de": "GitHub App-Integrationen",
+    "fr": "Intégrations d'applications GitHub",
+    "it": "Integrazioni app GitHub",
+    "ja": "GitHub アプリ統合",
+    "zh": "GitHub 应用程序集成"
+  },
+  "Projects ({count})": {
+    "cs": "Projekty ({count})",
+    "de": "Projekte ({count})",
+    "fr": "Projets ({count})",
+    "it": "Progetti ({count})",
+    "ja": "プロジェクト ({count})",
+    "zh": "项目（{count}）"
+  },
+  "GitHub Issue": {
+    "cs": "Problém s GitHubem",
+    "de": "GitHub-Problem",
+    "fr": "Problème GitHub",
+    "it": "Problema su GitHub",
+    "ja": "GitHubの問題",
+    "zh": "GitHub 问题"
+  },
+  "GitHub Milestone(Project)": {
+    "cs": "Milník GitHubu (projekt)",
+    "de": "GitHub-Meilenstein (Projekt)",
+    "fr": "GitHub Milestone (projet)",
+    "it": "GitHub Milestone (progetto)",
+    "ja": "GitHub マイルストーン（プロジェクト）",
+    "zh": "GitHub 里程碑（项目）"
+  },
+  "Only organization accounts are supported": {
+    "cs": "Podporovány jsou pouze účty organizací",
+    "de": "Es werden nur Organisationskonten unterstützt",
+    "fr": "Seuls les comptes d'organisation sont pris en charge",
+    "it": "Sono supportati solo gli account aziendali",
+    "ja": "組織アカウントのみがサポートされています",
+    "zh": "仅支持组织帐户"
+  },
+  "Ready to Merge": {
+    "cs": "Připraveno ke sloučení",
+    "de": "Bereit zur Fusion",
+    "fr": "Prêt à fusionner",
+    "it": "Pronti per la fusione",
+    "ja": "マージ準備完了",
+    "zh": "准备合并"
+  },
+  "into": {
+    "cs": "do",
+    "de": "hinein",
+    "fr": "dans",
+    "it": "in",
+    "ja": "の中へ",
+    "zh": "进入"
+  },
+  "Use component for Github repository": {
+    "cs": "Použít komponentu pro repozitář Github",
+    "de": "Komponente für Github-Repository verwenden",
+    "fr": "Utiliser le composant pour le référentiel Github",
+    "it": "Utilizza il componente per il repository Github",
+    "ja": "Githubリポジトリのコンポーネントを使用する",
+    "zh": "使用 Github 存储库的组件"
+  },
+  "Synchronization enabled": {
+    "cs": "Synchronizace povolena",
+    "de": "Synchronisierung aktiviert",
+    "fr": "Synchronisation activée",
+    "it": "Sincronizzazione abilitata",
+    "ja": "同期が有効",
+    "zh": "已启用同步"
+  },
+  "Connected to Issue <a href=\"{url}\">#{number}</a> inside <a href=\"{repository}\">{repoName}</a>": {
+    "cs": "Připojeno k problému <a href=\"{url}\">#{number</a> uvnitř <a href=\"{repository}\">{repoName</a>",
+    "de": "Verbunden mit Problem <a href=\"{url}\">#{number}</a> in <a href=\"{repository}\">{repoName}</a>",
+    "fr": "Connecté au problème <a href=\"{url}\">#{number}</a> dans <a href=\"{repository}\">{repoName}</a>",
+    "it": "Connesso al problema <a href=\"{url}\">#{number}</a> all'interno di <a href=\"{repository}\">{repoName}</a>",
+    "ja": "<a href=\"{repository}\">{repoName}> 内の問題 <a href=\"{url}\">#{number}} に接続しました",
+    "zh": "已连接到 <a href=\"{repository}\">{repoName}</a> 内的问题 <a href=\"{url}\">#{number}</a>"
+  },
+  "Connected to Pull Request <a href=\"{url}\">#{number}</a> inside <a href=\"{repository}\">{repoName}</a>": {
+    "cs": "Připojeno k žádosti o natažení <a href=\"{url}\">#{number</a> uvnitř <a href=\"{repository}\">{repoName</a>",
+    "de": "Verbunden mit Pull Request <a href=\"{url}\">#{number}</a> innerhalb von <a href=\"{repository}\">{repoName}</a>",
+    "fr": "Connecté à la demande d'extraction <a href=\"{url}\">#{number}</a> dans <a href=\"{repository}\">{repoName}</a>",
+    "it": "Connesso alla richiesta pull <a href=\"{url}\">#{number}</a> all'interno di <a href=\"{repository}\">{repoName}</a>",
+    "ja": "<a href=\"{repository}\">{repoName}> 内のプルリクエスト <a href=\"{url}\">#{number}} に接続しました",
+    "zh": "已连接到 <a href=\"{repository}\">{repoName}</a> 内的拉取请求 <a href=\"{url}\">#{number}</a>"
+  },
+  "Pull request Merged": {
+    "cs": "Žádost o natažení (pull request) sloučena",
+    "de": "Pull-Anfrage zusammengeführt",
+    "fr": "Demande d'extraction fusionnée",
+    "it": "Richiesta di pull unita",
+    "ja": "プルリクエストがマージされました",
+    "zh": "拉取请求已合并"
+  },
+  "Commented": {
+    "cs": "Komentováno",
+    "de": "Kommentiert",
+    "fr": "Commenté",
+    "it": "Commentato",
+    "ja": "コメントした",
+    "zh": "已评论"
+  },
+  "Approved": {
+    "cs": "Schválený",
+    "de": "Genehmigt",
+    "fr": "Approuvé",
+    "it": "Approvato",
+    "ja": "承認された",
+    "zh": "得到正式认可的"
+  },
+  "Changes requested": {
+    "cs": "Požadované změny",
+    "de": "Gewünschte Änderungen",
+    "fr": "Modifications demandées",
+    "it": "Modifiche richieste",
+    "ja": "変更要求",
+    "zh": "要求的变更"
+  },
+  "Dismissed": {
+    "cs": "Zamítnuto",
+    "de": "Entlassen",
+    "fr": "Rejeté",
+    "it": "Licenziato",
+    "ja": "解雇",
+    "zh": "已解散"
+  },
+  "Merge state": {
+    "cs": "Stav sloučení",
+    "de": "Zusammenführungsstatus",
+    "fr": "État de fusion",
+    "it": "Stato di unione",
+    "ja": "マージ状態",
+    "zh": "合并状态"
+  },
+  "Review state": {
+    "cs": "Stav kontroly",
+    "de": "Überprüfungsstatus",
+    "fr": "État de révision",
+    "it": "Stato di revisione",
+    "ja": "レビュー状態",
+    "zh": "审核状态"
+  },
+  "Conflict detected": {
+    "cs": "Zjištěn konflikt",
+    "de": "Konflikt erkannt",
+    "fr": "Conflit détecté",
+    "it": "Conflitto rilevato",
+    "ja": "競合が検出されました",
+    "zh": "检测到冲突"
+  },
+  "Yes": {
+    "cs": "Ano",
+    "de": "Ja",
+    "fr": "Oui",
+    "it": "SÌ",
+    "ja": "はい",
+    "zh": "是的"
+  },
+  "Open": {
+    "cs": "OTEVŘENO",
+    "de": "Offen",
+    "fr": "Ouvrir",
+    "it": "Aprire",
+    "ja": "開ける",
+    "zh": "打开"
+  },
+  "Merged": {
+    "cs": "Sloučeno",
+    "de": "Zusammengeführt",
+    "fr": "Fusionné",
+    "it": "Unito",
+    "ja": "合併",
+    "zh": "合并"
+  },
+  "Authorized with Github {login}": {
+    "cs": "Autorizováno přes Github {login}",
+    "de": "Autorisiert mit Github {login}",
+    "fr": "Autorisé avec Github {login}",
+    "it": "Autorizzato con Github {login}",
+    "ja": "Githubで承認済み {ログイン}",
+    "zh": "已通过 Github 授权 {login}"
+  },
+  "Please merge or remove Github person": {
+    "cs": "Prosím o sloučení nebo odstranění uživatele z Githubu",
+    "de": "Bitte führen Sie die Github-Person zusammen oder entfernen Sie sie",
+    "fr": "Veuillez fusionner ou supprimer la personne Github",
+    "it": "Si prega di unire o rimuovere la persona Github",
+    "ja": "Githubの人を統合または削除してください",
+    "zh": "请合并或删除 Github 人员"
+  },
+  "Please authorize Github application to act on behind you to perform actions": {
+    "cs": "Autorizujte prosím aplikaci Github, aby za vámi provedla akce.",
+    "de": "Bitte autorisieren Sie die Github-Anwendung, hinter Ihnen zu handeln, um Aktionen auszuführen",
+    "fr": "Veuillez autoriser l'application Github à agir derrière vous pour effectuer des actions",
+    "it": "Si prega di autorizzare l'applicazione Github ad agire dietro di te per eseguire azioni",
+    "ja": "アクションを実行するには、Github アプリケーションがあなたの背後で動作することを許可してください",
+    "zh": "请授权 Github 应用程序在你后面执行操作"
+  },
+  "Processing authentication/installation": {
+    "cs": "Zpracování ověřování/instalace",
+    "de": "Authentifizierung/Installation wird verarbeitet",
+    "fr": "Traitement de l'authentification/installation",
+    "it": "Elaborazione dell'autenticazione/installazione",
+    "ja": "認証/インストールの処理",
+    "zh": "处理身份验证/安装"
+  },
+  "Processing complete, Tab will be auto-closed in {time} seconds.": {
+    "cs": "Zpracování dokončeno, karta se automaticky zavře za {time} sekund.",
+    "de": "Verarbeitung abgeschlossen, Tab wird in {time} Sekunden automatisch geschlossen.",
+    "fr": "Traitement terminé, l'onglet sera fermé automatiquement dans {time} secondes.",
+    "it": "Elaborazione completata, la scheda verrà chiusa automaticamente tra {time} secondi.",
+    "ja": "処理が完了しました。タブは {time} 秒後に自動的に閉じられます。",
+    "zh": "处理完成，标签将在 {time} 秒后自动关闭。"
+  },
+  "Request failed. Please close the tab and try again.": {
+    "cs": "Požadavek se nezdařil. Zavřete prosím kartu a zkuste to znovu.",
+    "de": "Anforderung fehlgeschlagen. Bitte schließen Sie die Registerkarte und versuchen Sie es erneut.",
+    "fr": "Échec de la demande. Veuillez fermer l'onglet et réessayer.",
+    "it": "Richiesta non riuscita. Chiudi la scheda e riprova.",
+    "ja": "リクエストに失敗しました。タブを閉じてもう一度お試しください。",
+    "zh": "请求失败。请关闭标签页并重试。"
+  },
+  "Close Tab": {
+    "cs": "Zavřít kartu",
+    "de": "Tab schließen",
+    "fr": "Fermer l'onglet",
+    "it": "Chiudi scheda",
+    "ja": "タブを閉じる",
+    "zh": "关闭标签页"
+  },
+  "Please retry authentication": {
+    "cs": "Zkuste prosím ověření znovu",
+    "de": "Bitte versuchen Sie die Authentifizierung erneut",
+    "fr": "Veuillez réessayer l'authentification",
+    "it": "Si prega di riprovare l'autenticazione",
+    "ja": "認証を再試行してください",
+    "zh": "请重试身份验证"
+  },
+  "Updated": {
+    "cs": "Aktualizováno",
+    "de": "Aktualisiert",
+    "fr": "Mis à jour",
+    "it": "Aggiornato",
+    "ja": "更新",
+    "zh": "已更新"
+  },
+  "Connect to {title}": {
+    "cs": "Připojit se k {title}",
+    "de": "Verbinden mit {title}",
+    "fr": "Connectez-vous à {title}",
+    "it": "Connettiti a {title}",
+    "ja": "{title} に接続",
+    "zh": "连接到{title}"
+  },
+  "Disconnect": {
+    "cs": "Odpojit",
+    "de": "Trennen",
+    "fr": "Déconnecter",
+    "it": "Disconnettersi",
+    "ja": "切断",
+    "zh": "断开"
+  },
+  "Disconnect repository from project?": {
+    "cs": "Odpojit repozitář od projektu?",
+    "de": "Repository vom Projekt trennen?",
+    "fr": "Déconnecter le référentiel du projet ?",
+    "it": "Vuoi scollegare il repository dal progetto?",
+    "ja": "リポジトリをプロジェクトから切断しますか?",
+    "zh": "断开存储库与项目的连接？"
+  },
+  "<p>Disconnect repository {repositoryName} from {prjName}?</p><p>All synchronized issues/pull requests {total} will be not touched.</p><p>Would you like to continue?</p>": {
+    "cs": "<p>Odpojit repozitář {repositoryName} od {prjName}?</p><p>Všechny synchronizované úlohy/pull requesty {total} nebudou dotčeny.</p><p>Chcete pokračovat?</p>",
+    "de": "<p>Repository {repositoryName} von {prjName} trennen?</p><p>Alle synchronisierten Issues/Pull Requests {total} bleiben unberührt.</p><p>Möchten Sie fortfahren?</p>",
+    "fr": "<p>Déconnecter le référentiel {repositoryName} de {prjName} ?</p><p>Tous les tickets/pull requests synchronisés {total} ne seront pas touchés.</p><p>Souhaitez-vous continuer ?</p>",
+    "it": "<p>Scollegare il repository {repositoryName} da {prjName}?</p><p>Tutti i problemi/richieste di pull sincronizzati {total} non verranno toccati.</p><p>Vuoi continuare?</p>",
+    "ja": "<p>リポジトリ {repositoryName} を {prjName} から切断しますか?</p><p>同期されたすべての問題/プル リクエスト {total} は変更されません。</p><p>続行しますか?</p>",
+    "zh": "<p>断开存储库 {repositoryName} 与 {prjName} 的连接？</p><p>所有已同步的问题/拉取请求 {total} 将不受影响。</p><p>是否继续？</p>"
+  },
+  "Connected with": {
+    "cs": "Spojený s",
+    "de": "Verbunden mit",
+    "fr": "Connecté avec",
+    "it": "Connesso con",
+    "ja": "接続されている",
+    "zh": "连接"
+  },
+  "Installation should be performed from Workspace integration settings.": {
+    "cs": "Instalace by měla být provedena z nastavení integrace Workspace.",
+    "de": "Die Installation sollte über die Workspace-Integrationseinstellungen erfolgen.",
+    "fr": "L'installation doit être effectuée à partir des paramètres d'intégration de l'espace de travail.",
+    "it": "L'installazione deve essere eseguita dalle impostazioni di integrazione di Workspace.",
+    "ja": "インストールは Workspace 統合設定から実行する必要があります。",
+    "zh": "安装应从工作区集成设置执行。"
+  },
+  "Please uninstall application and try again.": {
+    "cs": "Odinstalujte prosím aplikaci a zkuste to znovu.",
+    "de": "Bitte deinstallieren Sie die Anwendung und versuchen Sie es erneut.",
+    "fr": "Veuillez désinstaller l'application et réessayer.",
+    "it": "Disinstallare l'applicazione e riprovare.",
+    "ja": "アプリケーションをアンインストールしてもう一度お試しください。",
+    "zh": "请卸载应用程序并重试。"
+  },
+  "Installed Github Apps": {
+    "cs": "Nainstalované aplikace z Githubu",
+    "de": "Installierte Github-Apps",
+    "fr": "Applications Github installées",
+    "it": "App Github installate",
+    "ja": "インストールされたGithubアプリ",
+    "zh": "已安装的 Github 应用"
+  },
+  "Re-authorization for {login} is required for the proper functioning of the GitHub App": {
+    "cs": "Pro správné fungování aplikace GitHub je vyžadována opětovná autorizace pro {login}.",
+    "de": "Für die ordnungsgemäße Funktion der GitHub-App ist eine erneute Autorisierung für {login} erforderlich",
+    "fr": "Une réautorisation pour {login} est requise pour le bon fonctionnement de l'application GitHub",
+    "it": "Per il corretto funzionamento dell'app GitHub è necessaria una nuova autorizzazione per {login}",
+    "ja": "GitHub アプリが正常に機能するには、{login} の再認証が必要です",
+    "zh": "需要对 {login} 进行重新授权才能使 GitHub App 正常运行"
+  },
+  "Uninstall Github App": {
+    "cs": "Odinstalace aplikace Github",
+    "de": "Deinstallieren Sie die Github-App",
+    "fr": "Désinstaller l'application Github",
+    "it": "Disinstallare l'app Github",
+    "ja": "Githubアプリをアンインストールする",
+    "zh": "卸载 Github 应用"
+  },
+  "Are you sure you want to uninstall the GitHub App? Synchronization will be disabled.": {
+    "cs": "Opravdu chcete odinstalovat aplikaci GitHub? Synchronizace bude zakázána.",
+    "de": "Möchten Sie die GitHub-App wirklich deinstallieren? Die Synchronisierung wird deaktiviert.",
+    "fr": "Voulez-vous vraiment désinstaller l'application GitHub ? La synchronisation sera désactivée.",
+    "it": "Vuoi davvero disinstallare l'app GitHub? La sincronizzazione verrà disabilitata.",
+    "ja": "GitHub アプリをアンインストールしてもよろしいですか? 同期は無効になります。",
+    "zh": "您确定要卸载 GitHub App 吗？同步将被禁用。"
+  },
+  "Uninstall": {
+    "cs": "Odinstalovat",
+    "de": "Deinstallieren",
+    "fr": "Désinstaller",
+    "it": "Disinstallare",
+    "ja": "アンインストール",
+    "zh": "卸载"
+  },
+  "Suspended": {
+    "cs": "Pozastaveno",
+    "de": "Ausgesetzt",
+    "fr": "Suspendu",
+    "it": "Sospeso",
+    "ja": "一時停止中",
+    "zh": "暂停"
   }
 }

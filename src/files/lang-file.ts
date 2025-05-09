@@ -1,5 +1,6 @@
 import fs from "fs";
 import {LangProject} from "src/project";
+import {translateBatch, translateText} from "src/translation-service/google-translate";
 
 interface LangFileTranslation {
     id: string
@@ -30,6 +31,13 @@ export class LangFile {
     };
 
     async translateMissingStrings(originals: Record<string, string>): Promise<string[]> {
+        console.info(`Translating missing strings for [${this.langId}] in the ${this.project.name} project...`);
+        const originalsToTranslate: [string, string][] =
+            Object.entries(originals).map((s) => [s[0], s[1]]);
+
+        for(const [id, text] of Object.entries(originals)) {
+            const res = await translateText(text, this.langId)
+        }
         // Check if the original string is missing in the current language file
         // translate it using
         // export async function translateBatch(pairs: [string, string][], targetLang: string): Promise<Record<string, string>>

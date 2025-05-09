@@ -78,6 +78,9 @@ export async function translateBatch(pairs: [string, string][], targetLang: stri
 
         const res = await fetch(`${BASE_URL}?${params.toString()}`);
         const data = await res.json();
+        if(!data.data?.translations) {
+            debugger;
+        }
         const translations = data.data.translations;
 
         toTranslate.forEach(([id, original], i) => {
