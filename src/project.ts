@@ -13,6 +13,10 @@ export class LangProject {
     private path: string
     readonly root: string;
 
+    get name(): string {
+        return this.path
+    }
+
     constructor(dir: string) {
         this.path = dir;
         this.root = path.join(ENVT.platformDir, dir)

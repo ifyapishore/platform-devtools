@@ -42,7 +42,7 @@ Loads i18n projects from the ./src/lang-projects.json file and perform sanity ch
     reports.forEach((report) => {
       if(report.hasReport) {
           console.info("=====================================");
-          console.info(report.project.path);
+          console.info(report.project.name);
           report.errors.forEach((error) => {
               console.info(`❌ - ${error}`);
           });
