@@ -52,7 +52,7 @@ Execution:
 npm run i18n-check
 ```
 
-### i18n-update
+### i18n-update (in progress)
 
 Update all lang files according auto.json file content.
 
@@ -69,10 +69,28 @@ STEP #2: Update all lang files:
 - Keep the original translations order in the {lang}.json file.
 - Do not remove unused translations from the {lang}.json file.
 
-### i18n-cleanup
+### i18n-cleanup (in progress)
 
 Cleanup the i18n subprojects/plugins in the platform project.
 
 - Go thought the i18n-update process
 - Remove unused translations from the {lang}.json files.
+
+### i18n-export (in progress)
+
+Extract language files and upload as google spreadsheet.
+
+Translation verification workflow:
+- Use i18n-export tool to extract language files from the platform project.
+- Native speakers manually validate translations in the google spreadsheet (with comments from auto.json)
+- Use i18n-import tool to import translations from the google spreadsheet to the platform project.
+- Check build correctness.
+- Merge PR
+
+### i18n-import (in progress)
+
+Import translations from the google spreadsheet to the platform project.
+
+
+
 
