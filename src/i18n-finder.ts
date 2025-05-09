@@ -1,7 +1,8 @@
 import fs from 'fs';
 import path from 'path';
+import {saveLangProjectsFileModel} from "./files/lang-projects-file";
+import {LangProjectsFile} from "./project";
 import {ENVT} from "./env";
-import {LangProjectsSnapshot} from "./models";
 
 /**
  * Recursively iterate projects structure and return folders with i18n files
@@ -47,10 +48,10 @@ function findLangProjects(dir: string, out: string[]) {
  * @param out - relative paths to lang projects
  */
 function storeLangProjects(file: string, out: string[]) {
-    const data: LangProjectsSnapshot = {
+    const data: LangProjectsFile = {
         projects: out.map((project) => ({path: project}))
     };
-    fs.writeFileSync(file, JSON.stringify(data, null, 2));
+    saveLangProjectsFileModel(file, data);
 }
 
 function main() {
