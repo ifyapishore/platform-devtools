@@ -1,4 +1,5 @@
 import {checkLangFiles} from "src/checks/checkLangFiles";
+import {checkUnknownLanguageFiles} from "src/checks/checkUnknownLanguageFiles";
 import {LangProject} from "src/project";
 import {LangProjectReport} from "src/report";
 import {ENVT} from "./env";
@@ -24,8 +25,8 @@ Loads i18n projects from the ./src/lang-projects.json file and perform sanity ch
         try {
             // project.load()
             // startTask()
-            checkLangFiles(project, report);
-            // checkUnknownLanguageFiles(project);
+            // checkLangFiles(project, report);
+            checkUnknownLanguageFiles(project, report);
             // const rep = findMissingAndNotUsedTranslations(project);
             // if (rep) {
             //     // console.info("Missing or not used translations:");

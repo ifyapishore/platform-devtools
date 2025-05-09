@@ -2,12 +2,10 @@ import fs from "fs";
 import path from "path";
 import {ENVT} from "src/env";
 import {LangProject} from "src/project";
+import {LangProjectReport} from "src/report";
 
-export function checkUnknownLanguageFiles(project: LangProject) {
-    const root = project.langDir;
-    const langDir = path.join(root, "lang");
-
-    const files = fs.readdirSync(langDir);
+export function checkUnknownLanguageFiles(project: LangProject, report: LangProjectReport) {
+    const files = fs.readdirSync(project.langDir);
     files.forEach((file) => {
         const fileName = file.split(".")[0]
         const fileExt = file.split(".")[1]
@@ -17,7 +15,7 @@ export function checkUnknownLanguageFiles(project: LangProject) {
         if (fileName === "auto") return;
 
         if (!ENVT.supportedLanguages.includes(fileName)) {
-            console.warn(`❌ - ${file} - Unknown language file`);
+            report.error(`${file} - Unknown language file`);
         }
     });
 }
