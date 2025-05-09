@@ -1,5 +1,6 @@
 import {checkLangFiles} from "src/checks/checkLangFiles";
 import {checkProjectTranslations} from "src/checks/checkTranslations";
+import {checkTsDeclaration} from "src/checks/checkTsDeclaration";
 import {checkUnknownLanguageFiles} from "src/checks/checkUnknownLanguageFiles";
 import {LangProject} from "src/project";
 import {LangProjectReport} from "src/report";
@@ -25,6 +26,7 @@ Loads i18n projects from the ./src/lang-projects.json file and perform sanity ch
         const report = new LangProjectReport(project)
         try {
             project.load()
+            // checkTsDeclaration(project, report);
             checkLangFiles(project, report);
             checkUnknownLanguageFiles(project, report);
             checkProjectTranslations(project, report);
