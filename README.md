@@ -28,7 +28,6 @@ Folder considered as i18 root if and only if:
 - "lang" subfolder contains "en.json" file (minimal requirement)
 
 Execution:
-
 ```bash
 npm run i18n-finder
 ```
@@ -47,6 +46,11 @@ For each i18n subproject/plugin the tool will:
 - Check if the translation is missing in the {lang}.json file.
 - Check if the UNKNOWN translation is found in the {lang}.json file.
 - Check if the translation is automatic or manual.
+
+Execution:
+```bash
+npm run i18n-check
+```
 
 ### i18n-update
 
