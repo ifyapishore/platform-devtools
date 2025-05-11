@@ -63,6 +63,10 @@ export class LangProject {
         return path.join(this.langDir, `${langId}.json`);
     }
 
+    getLangLockFile(langId: string) {
+        return path.join(this.langDir, `${langId}-lock.json`);
+    }
+
     createLangFile(langId: string) {
         if(this.langs[langId]) throw new Error(`Lang file [${langId}] already exists.`);
         const data: LangFileRaw = { string: {} };
